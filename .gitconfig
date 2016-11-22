@@ -1,0 +1,10 @@
+[alias]
+	st = status
+	co = checkout
+	who = shortlog -sne
+	undo = reset --soft HEAD^
+	oneline = log --pretty=oneline --abbrev-commit --graph --decorate   
+  lc = !git oneline ORIG_HEAD.. --stat --no-merges
+	pf = "!f() { \
+			git push --force origin $1; \
+		}; f"
