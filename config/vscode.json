@@ -1,0 +1,14 @@
+{
+    "window.zoomLevel": 0,
+    "git.confirmSync": false,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "extensions.autoUpdate": true,
+    "editor.minimap.enabled": false,
+    "git.enableSmartCommit": true,
+    "window.menuBarVisibility": "default",
+    "eslint.autoFixOnSave": true,
+    "search.useIgnoreFilesByDefault": true,
+    "workbench.editor.enablePreview": false,
+    "editor.formatOnSave": true
+}
