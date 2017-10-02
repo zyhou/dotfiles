@@ -1,10 +1,19 @@
+[color]
+	ui = auto
+[user]
+	email = richard.maxime9@gmail.com
+	name = zyhou
+[push]
+	default = simple
+[merge]
+    tool = meld
 [alias]
-	st = status
-	co = checkout
-	who = shortlog -sne
 	undo = reset --soft HEAD^
-	oneline = log --pretty=oneline --abbrev-commit --graph --decorate
-        lc = !git oneline ORIG_HEAD.. --stat --no-merges
-	pf = "!f() { \
-			git push --force origin $1; \
-		}; f"
+[commit]
+	gpgsign = false
+[core]
+	editor = code --wait
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
