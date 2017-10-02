@@ -1,0 +1,18 @@
+[color]
+	ui = auto
+[user]
+	name = zyhou
+[push]
+	default = simple
+[merge]
+    tool = meld
+[alias]
+	undo = reset --soft HEAD^
+[commit]
+	gpgsign = false
+[core]
+	editor = code --wait
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
