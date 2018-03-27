@@ -57,7 +57,10 @@ export TERM="xterm-256color"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-wakatime)
+plugins=(
+  git
+  zsh-wakatime
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -104,9 +107,10 @@ export PATH="/home/max/anaconda3/bin:$PATH"
 
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export WORKON_HOME=$HOME/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
+#source /usr/local/bin/virtualenvwrapper.sh
 
 export PATH=~/.local/bin:$PATH
+export PATH=~/.npm-global/bin:$PATH
 export VISUAL=vi
 export EDITOR="$VISUAL"
 
@@ -119,5 +123,5 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # begin comfy completion
-. <(comfy --completion)
+#. <(comfy --completion)
 # end comfy completion
