@@ -28,5 +28,6 @@
     "[javascript]": {
         "editor.formatOnSave": true
     },
-    "git.autofetch": true
+    "git.autofetch": true,
+    "explorer.confirmDragAndDrop": false
 }
