@@ -11,3 +11,10 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 - [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
 - [nvm](https://github.com/creationix/nvm)
 - [gtop](https://github.com/aksakalli/gtop)
+
+## Font vscode
+
+```bash
+cp SourceCodePro+Powerline+Awesome+Regular.ttf ~/.fonts # Copy font
+fc-cache -vf ~/.fonts # refresh cache font
+```
