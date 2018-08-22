@@ -59,7 +59,11 @@ export TERM="xterm-256color"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  yarn
   zsh-wakatime
+  zsh-autosuggestions
+  zsh-completions
+  nvm-auto
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -93,15 +97,14 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias perso="cd /media/max/Data1/perso"
+alias restartzsh="source ~/.zshrc"
 alias cls="clear"
 alias make="make --silent"
 
 export ANDROID_HOME=${HOME}/Android/Sdk
 export PATH=${PATH}:${ANDROID_HOME}/tools
 export PATH=${PATH}:${ANDROID_HOME}/platform-tools
-
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+export PATH=${PATH}:/opt/gradle/gradle-4.6/bin
 
 export PATH="/home/max/anaconda3/bin:$PATH"
 
@@ -125,3 +128,4 @@ export NVM_DIR="$HOME/.nvm"
 # begin comfy completion
 #. <(comfy --completion)
 # end comfy completion
+nvm_auto_switch
