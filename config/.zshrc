@@ -64,6 +64,7 @@ plugins=(
   zsh-autosuggestions
   zsh-completions
   nvm-auto
+  ssh-agent
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -100,6 +101,7 @@ source $ZSH/oh-my-zsh.sh
 alias restartzsh="source ~/.zshrc"
 alias cls="clear"
 alias make="make --silent"
+alias cat='bat'
 
 export ANDROID_HOME=${HOME}/Android/Sdk
 export PATH=${PATH}:${ANDROID_HOME}/tools
@@ -112,6 +114,10 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export WORKON_HOME=$HOME/.virtualenvs
 #source /usr/local/bin/virtualenvwrapper.sh
 
+# Install Ruby Gems to ~/gems
+export GEM_HOME=$HOME/gems
+export PATH=$HOME/gems/bin:$PATH
+
 export PATH=~/.local/bin:$PATH
 export PATH=~/.npm-global/bin:$PATH
 export VISUAL=vi
@@ -120,10 +126,11 @@ export EDITOR="$VISUAL"
 DEFAULT_USER=max
 
 eval $(thefuck --alias)
-eval $(direnv hook zsh)
+eval "$(direnv hook $SHELL)"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 
 nvm_auto_switch
