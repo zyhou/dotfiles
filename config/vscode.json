@@ -10,6 +10,9 @@
   "extensions.autoUpdate": true,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
   "files.trimFinalNewlines": true,
   "editor.minimap.enabled": false,
   "editor.multiCursorModifier": "ctrlCmd",
@@ -21,13 +24,13 @@
   "prettier.eslintIntegration": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  },
   "breadcrumbs.enabled": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "github.hosts": [
-    {
-      "host": "https://github.com",
-      "token": "system"
-    }
-  ]
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
