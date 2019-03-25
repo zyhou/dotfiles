@@ -32,5 +32,29 @@
     "editor.formatOnSave": true
   },
   "breadcrumbs.enabled": true,
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.titleBarStyle": "custom",
+  "vsnotes.defaultNotePath": "/home/max/task-manager/",
+  "vsnotes.commitPushDefaultCommitMessage": "update task",
+  "vsnotes.defaultNoteName": "newnote",
+  "vsnotes.tokens": [
+    {
+      "type": "datetime",
+      "token": "{dt}",
+      "format": "YYYYMMDD",
+      "description": "Insert formatted datetime."
+    },
+    {
+      "type": "title",
+      "token": "{title}",
+      "description": "Insert note title from input box.",
+      "format": "Untitled"
+    },
+    {
+      "type": "extension",
+      "token": "{ext}",
+      "description": "Insert file vsnotes.",
+      "format": "md"
+    }
+  ]
 }

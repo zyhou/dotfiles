@@ -25,6 +25,17 @@ cp SourceCodePro+Powerline+Awesome+Regular.ttf ~/.fonts # Copy font
 fc-cache -vf ~/.fonts # refresh cache font
 ```
 
+## Extension vscode
+
+- [Prise de notes](https://marketplace.visualstudio.com/items?itemName=patricklee.vsnotes)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Path intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+- [Npm intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+- [GraphQl (coloration + lien + ...)](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)
+- [Coloration des fichiers snapshot](https://marketplace.visualstudio.com/items?itemName=asvetliakov.snapshot-tools)
+- [Git blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
+
 ## Other
 
 - [Install Postman on Ubuntu](https://blog.bluematador.com/posts/postman-how-to-install-on-ubuntu-1604/)

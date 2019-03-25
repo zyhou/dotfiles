@@ -102,6 +102,9 @@ alias restartzsh="source ~/.zshrc"
 alias cls="clear"
 alias make="make --silent"
 alias cat='bat'
+alias c="code ."
+alias zshrc='code ~/.zshrc'
+alias sshconfig='code ~/.ssh/config'
 
 export ANDROID_HOME=${HOME}/Android/Sdk
 export PATH=${PATH}:${ANDROID_HOME}/tools
