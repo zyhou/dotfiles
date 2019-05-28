@@ -3,6 +3,9 @@
   "window.menuBarVisibility": "default",
   "window.openFoldersInNewWindow": "on",
   "workbench.editor.enablePreview": false,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#1A1A1A",
+  },
   "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular'",
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
