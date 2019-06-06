@@ -2,9 +2,10 @@
   "window.zoomLevel": 1,
   "window.menuBarVisibility": "default",
   "window.openFoldersInNewWindow": "on",
+  "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
   "workbench.colorCustomizations": {
-    "statusBar.background": "#1A1A1A",
+    "statusBar.background": "#1A1A1A"
   },
   "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular'",
   "git.confirmSync": false,
@@ -25,16 +26,18 @@
   "eslint.autoFixOnSave": true,
   "eslint.packageManager": "yarn",
   "prettier.eslintIntegration": true,
+  "prettier.tslintIntegration": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "editor.formatOnSave": false,
   "[javascript]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "breadcrumbs.enabled": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "window.titleBarStyle": "custom",
   "vsnotes.defaultNotePath": "/home/max/task-manager/",
