@@ -59,8 +59,6 @@ export TERM="xterm-256color"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  yarn
-  zsh-wakatime
   zsh-autosuggestions
   zsh-completions
   nvm-auto
@@ -103,7 +101,7 @@ alias cls="clear"
 alias make="make --silent"
 alias cat='bat'
 alias c="code ."
-alias zshrc='code ~/.zshrc'
+alias zshrc="code ~/.zshrc"
 alias sshconfig='code ~/.ssh/config'
 
 export ANDROID_HOME=${HOME}/Android/Sdk
@@ -125,8 +123,6 @@ export PATH=~/.local/bin:$PATH
 export PATH=~/.npm-global/bin:$PATH
 export VISUAL=vi
 export EDITOR="$VISUAL"
-
-DEFAULT_USER=max
 
 eval $(thefuck --alias)
 eval "$(direnv hook $SHELL)"
