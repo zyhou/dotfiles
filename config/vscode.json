@@ -5,7 +5,7 @@
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
   "workbench.colorTheme": "Night Owl",
-  "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular'",
+  "terminal.integrated.fontFamily": "MesloLGMDZ Nerd Font",
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.autofetch": true,

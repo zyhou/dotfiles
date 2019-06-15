@@ -1,6 +1,8 @@
 export ZSH=/home/max/.oh-my-zsh
 export TERM="xterm-256color"
 
+DISABLE_AUTO_TITLE="true"
+
 ZSH_THEME="spaceship"
 
 SPACESHIP_PROMPT_FIRST_PREFIX_SHOW="true"
@@ -15,6 +17,11 @@ plugins=(
   nvm-auto
   ssh-agent
 )
+
+function precmd () {
+  window_title="\033]0;${PWD##*/}\007"
+  echo -ne "$window_title"
+}
 
 source $ZSH/oh-my-zsh.sh
 

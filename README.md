@@ -8,7 +8,7 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 
 - [oh-my-zsh + git plugin](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
 - [extension oh-my-zsh, spaceship-prompt](https://github.com/denysdovhan/spaceship-prompt)
-- [couleur terminal, theme snazzy](http://mayccoll.github.io/Gogh/)
+- [Hyper](https://hyper.is/)
 - [arc theme](https://github.com/horst3180/arc-theme)
 - [bat > cat](https://github.com/sharkdp/bat)
 - [prettyping > ping](http://denilson.sa.nom.br/prettyping/)
@@ -21,11 +21,11 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 - [dockly](https://github.com/lirantal/dockly)
 - [git standup](https://github.com/kamranahmedse/git-standup)
 
-## Font vscode
+## Font vscode + terminal
 
 ```bash
-cp SourceCodePro+Powerline+Awesome+Regular.ttf ~/.fonts # Copy font
-fc-cache -vf ~/.fonts # refresh cache font
+sudo cp -r Meslo /usr/share/fonts/opentype # Copy font
+sudo fc-cache -fv # refresh cache font
 ```
 
 ## Extension vscode
