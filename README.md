@@ -5,7 +5,8 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 ## Bureau
 
 - [oh-my-zsh + git plugin](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
-- [extension oh-my-zsh, powerlevel9k](https://github.com/bhilburn/powerlevel9k)
+- [extension oh-my-zsh, spaceship-prompt](https://github.com/denysdovhan/spaceship-prompt)
+- [couleur terminal, theme snazzy](http://mayccoll.github.io/Gogh/)
 - [arc theme](https://github.com/horst3180/arc-theme)
 - [bat > cat](https://github.com/sharkdp/bat)
 - [prettyping > ping](http://denilson.sa.nom.br/prettyping/)
@@ -14,7 +15,7 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 
 - [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
 - [nvm](https://github.com/creationix/nvm)
-- [gtop](https://github.com/aksakalli/gtop)
+- [gotop](https://github.com/cjbassi/gotop)
 - [dockly](https://github.com/lirantal/dockly)
 - [git standup](https://github.com/kamranahmedse/git-standup)
 
@@ -30,11 +31,10 @@ fc-cache -vf ~/.fonts # refresh cache font
 - [Prise de notes](https://marketplace.visualstudio.com/items?itemName=patricklee.vsnotes)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [Path intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-- [Npm intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 - [GraphQl (coloration + lien + ...)](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)
 - [Coloration des fichiers snapshot](https://marketplace.visualstudio.com/items?itemName=asvetliakov.snapshot-tools)
 - [Git blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
+- [Night owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl&WT.mc_id=twitter-social-sdras)
 
 ## Other
 

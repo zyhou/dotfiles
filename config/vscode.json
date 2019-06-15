@@ -1,12 +1,10 @@
 {
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 3,
   "window.menuBarVisibility": "default",
   "window.openFoldersInNewWindow": "on",
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#1A1A1A"
-  },
+  "workbench.colorTheme": "Night Owl",
   "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular'",
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
@@ -62,5 +60,6 @@
       "description": "Insert file vsnotes.",
       "format": "md"
     }
-  ]
+  ],
+  "merge-conflict.diffViewPosition": "Below"
 }
