@@ -42,5 +42,4 @@ fc-cache -vf ~/.fonts # refresh cache font
 - [Install Gluqlo Screensaver on Ubuntu](https://www.faqforge.com/linux/set-fliqlo-like-flip-clock-screensaver-ubuntu-system/)
 - [Active Edit button in Shutter on Ubuntu](https://itsfoss.com/shutter-edit-button-disabled/)
 
-
-[[https://raw.githubusercontent.com/zyhou/environnement-dev/master/screenshot.png|alt=screenshot]]
+![screenshot](https://raw.githubusercontent.com/zyhou/environnement-dev/master/screenshot.png)
