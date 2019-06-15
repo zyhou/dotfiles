@@ -2,6 +2,8 @@
 
 Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter les choses à savoir concernant mon installation.
 
+![screenshot](https://raw.githubusercontent.com/zyhou/environnement-dev/master/screenshot.png)
+
 ## Bureau
 
 - [oh-my-zsh + git plugin](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
@@ -42,4 +44,3 @@ fc-cache -vf ~/.fonts # refresh cache font
 - [Install Gluqlo Screensaver on Ubuntu](https://www.faqforge.com/linux/set-fliqlo-like-flip-clock-screensaver-ubuntu-system/)
 - [Active Edit button in Shutter on Ubuntu](https://itsfoss.com/shutter-edit-button-disabled/)
 
-![screenshot](https://raw.githubusercontent.com/zyhou/environnement-dev/master/screenshot.png)
