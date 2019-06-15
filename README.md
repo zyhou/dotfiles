@@ -43,4 +43,3 @@ fc-cache -vf ~/.fonts # refresh cache font
 - [Install Postman on Ubuntu](https://blog.bluematador.com/posts/postman-how-to-install-on-ubuntu-1604/)
 - [Install Gluqlo Screensaver on Ubuntu](https://www.faqforge.com/linux/set-fliqlo-like-flip-clock-screensaver-ubuntu-system/)
 - [Active Edit button in Shutter on Ubuntu](https://itsfoss.com/shutter-edit-button-disabled/)
-
