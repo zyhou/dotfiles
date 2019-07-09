@@ -1,65 +1,45 @@
 {
-  "window.zoomLevel": 3,
-  "window.menuBarVisibility": "default",
-  "window.openFoldersInNewWindow": "on",
-  "workbench.startupEditor": "none",
-  "workbench.editor.enablePreview": false,
-  "workbench.colorTheme": "Night Owl",
-  "terminal.integrated.fontFamily": "MesloLGMDZ Nerd Font",
-  "git.confirmSync": false,
-  "git.enableSmartCommit": true,
-  "git.autofetch": true,
-  "extensions.autoUpdate": true,
-  "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true,
-  "[markdown]": {
-    "files.trimTrailingWhitespace": false
-  },
-  "files.trimFinalNewlines": true,
-  "editor.minimap.enabled": false,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.renderWhitespace": "none",
-  "editor.detectIndentation": false,
-  "editor.formatOnPaste": true,
-  "eslint.autoFixOnSave": true,
-  "eslint.packageManager": "yarn",
-  "prettier.eslintIntegration": true,
-  "prettier.tslintIntegration": true,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "editor.formatOnSave": false,
-  "[javascript]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "window.titleBarStyle": "custom",
-  "vsnotes.defaultNotePath": "/home/max/task-manager/",
-  "vsnotes.commitPushDefaultCommitMessage": "update task",
-  "vsnotes.defaultNoteName": "newnote",
-  "vsnotes.tokens": [
-    {
-      "type": "datetime",
-      "token": "{dt}",
-      "format": "YYYYMMDD",
-      "description": "Insert formatted datetime."
+    "window.zoomLevel": 3,
+    "window.menuBarVisibility": "default",
+    "window.openFoldersInNewWindow": "on",
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreview": false,
+    "workbench.colorTheme": "Night Owl",
+    "terminal.integrated.fontFamily": "MesloLGMDZ Nerd Font",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "extensions.autoUpdate": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
     },
-    {
-      "type": "title",
-      "token": "{title}",
-      "description": "Insert note title from input box.",
-      "format": "Untitled"
+    "files.trimFinalNewlines": true,
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderWhitespace": "none",
+    "editor.detectIndentation": false,
+    "editor.formatOnPaste": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.packageManager": "yarn",
+    "prettier.eslintIntegration": true,
+    "prettier.tslintIntegration": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    // Set the default
+    "editor.formatOnSave": false,
+    // Enable per-language
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    {
-      "type": "extension",
-      "token": "{ext}",
-      "description": "Insert file vsnotes.",
-      "format": "md"
-    }
-  ],
-  "merge-conflict.diffViewPosition": "Below"
+    "[json]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.implicitProjectConfig.checkJs": true,
+    "window.titleBarStyle": "custom",
+    "merge-conflict.diffViewPosition": "Below",
 }
