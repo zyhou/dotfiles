@@ -30,7 +30,6 @@ sudo fc-cache -fv # refresh cache font
 
 ## Extension vscode
 
-- [Prise de notes](https://marketplace.visualstudio.com/items?itemName=patricklee.vsnotes)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [GraphQl (coloration + lien + ...)](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)
@@ -43,3 +42,4 @@ sudo fc-cache -fv # refresh cache font
 - [Install Postman on Ubuntu](https://blog.bluematador.com/posts/postman-how-to-install-on-ubuntu-1604/)
 - [Install Gluqlo Screensaver on Ubuntu](https://www.faqforge.com/linux/set-fliqlo-like-flip-clock-screensaver-ubuntu-system/)
 - [Active Edit button in Shutter on Ubuntu](https://itsfoss.com/shutter-edit-button-disabled/)
+- [Boostnote, outil de prise de notes](https://boostnote.io/)
