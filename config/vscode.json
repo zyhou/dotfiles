@@ -1,45 +1,79 @@
 {
-    "window.zoomLevel": 3,
-    "window.menuBarVisibility": "default",
-    "window.openFoldersInNewWindow": "on",
-    "workbench.startupEditor": "none",
-    "workbench.editor.enablePreview": false,
-    "workbench.colorTheme": "Night Owl",
-    "terminal.integrated.fontFamily": "MesloLGMDZ Nerd Font",
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true,
-    "git.autofetch": true,
-    "extensions.autoUpdate": true,
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
-    "[markdown]": {
-        "files.trimTrailingWhitespace": false
+  "window.zoomLevel": 3,
+  "window.openFoldersInNewWindow": "on",
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Night Owl",
+  "workbench.colorCustomizations": {
+    "[Night Owl]": {
+      "activityBar.background": "#000C1D",
+      "activityBar.border": "#102a44",
+      "sideBar.background": "#001122",
+      "sideBar.border": "#102a44",
+      "sideBar.foreground": "#8BADC1",
+      "editor.selectionBackground": "#1d3b53"
+    }
+  },
+  "workbench.editor.enablePreview": false,
+  "terminal.integrated.fontFamily": "MesloLGMDZ Nerd Font",
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.enableCommitSigning": true,
+  "extensions.autoUpdate": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "files.trimFinalNewlines": true,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderWhitespace": "none",
+  "editor.detectIndentation": false,
+  "editor.formatOnPaste": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.packageManager": "yarn",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  // Set the default
+  "editor.formatOnSave": false,
+  // Enable per-language
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // "javascript.implicitProjectConfig.checkJs": true,
+  "window.titleBarStyle": "custom",
+  "merge-conflict.diffViewPosition": "Below",
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
     },
-    "files.trimFinalNewlines": true,
-    "editor.minimap.enabled": false,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.renderWhitespace": "none",
-    "editor.detectIndentation": false,
-    "editor.formatOnPaste": true,
-    "eslint.autoFixOnSave": true,
-    "eslint.packageManager": "yarn",
-    "prettier.eslintIntegration": true,
-    "prettier.tslintIntegration": true,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    // Set the default
-    "editor.formatOnSave": false,
-    // Enable per-language
-    "[javascript]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "javascript.implicitProjectConfig.checkJs": true,
-    "window.titleBarStyle": "custom",
-    "merge-conflict.diffViewPosition": "Below",
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveshare.audio.joinCallBehavior": "accept",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.mdx": "markdown"
+  }
 }

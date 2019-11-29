@@ -16,6 +16,7 @@ plugins=(
   zsh-syntax-highlighting
   nvm-auto
   ssh-agent
+  dotenv
 )
 
 function precmd () {
@@ -54,8 +55,12 @@ export PATH=~/.npm-global/bin:$PATH
 export VISUAL=vi
 export EDITOR="$VISUAL"
 
+DEFAULT_USER=max
+
 eval $(thefuck --alias)
 eval "$(direnv hook $SHELL)"
+
+autoload -U compinit && compinit
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

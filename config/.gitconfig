@@ -9,7 +9,7 @@
 [alias]
 	undo = reset --soft HEAD^
 [commit]
-	gpgsign = false
+	gpgsign = true
 [core]
 	editor = code --wait
 [diff]
