@@ -1,79 +1,49 @@
 {
-  "window.zoomLevel": 3,
-  "window.openFoldersInNewWindow": "on",
-  "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Night Owl",
-  "workbench.colorCustomizations": {
-    "[Night Owl]": {
-      "activityBar.background": "#000C1D",
-      "activityBar.border": "#102a44",
-      "sideBar.background": "#001122",
-      "sideBar.border": "#102a44",
-      "sideBar.foreground": "#8BADC1",
-      "editor.selectionBackground": "#1d3b53"
-    }
-  },
-  "workbench.editor.enablePreview": false,
-  "terminal.integrated.fontFamily": "MesloLGMDZ Nerd Font",
-  "git.confirmSync": false,
-  "git.enableSmartCommit": true,
-  "git.autofetch": true,
-  "git.enableCommitSigning": true,
-  "extensions.autoUpdate": true,
-  "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true,
-  "[markdown]": {
-    "files.trimTrailingWhitespace": false
-  },
-  "files.trimFinalNewlines": true,
-  "editor.minimap.enabled": false,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.renderWhitespace": "none",
-  "editor.detectIndentation": false,
-  "editor.formatOnPaste": true,
-  "eslint.autoFixOnSave": true,
-  "eslint.packageManager": "yarn",
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  // Set the default
-  "editor.formatOnSave": false,
-  // Enable per-language
-  "[javascript]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  // "javascript.implicitProjectConfig.checkJs": true,
-  "window.titleBarStyle": "custom",
-  "merge-conflict.diffViewPosition": "Below",
-  "[typescriptreact]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    {
-      "language": "typescript",
-      "autoFix": true
+    "window.zoomLevel": 3,
+    "window.openFoldersInNewWindow": "on",
+    "window.titleBarStyle": "custom",
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Night Owl",
+    "workbench.colorCustomizations": {
+        "[Night Owl]": {
+            "activityBar.background": "#000C1D",
+            "activityBar.border": "#102a44",
+            "sideBar.background": "#001122",
+            "sideBar.border": "#102a44",
+            "sideBar.foreground": "#8BADC1",
+            "editor.selectionBackground": "#1d3b53"
+        },
     },
-    {
-      "language": "typescriptreact",
-      "autoFix": true
-    }
-  ],
-  "[typescript]": {
+    "workbench.editor.enablePreview": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.fontFamily": "MesloLGMDZ Nerd Font",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.enableCommitSigning": true,
+    "extensions.autoUpdate": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    "files.trimFinalNewlines": true,
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderWhitespace": "none",
+    "editor.detectIndentation": false,
+    "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "liveshare.audio.joinCallBehavior": "accept",
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "files.associations": {
-    "*.mdx": "markdown"
-  }
+    "editor.codeActionsOnSave": {
+        // "source.organizeImports": true,
+        "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "merge-conflict.diffViewPosition": "Below",
+    "files.associations": {
+        "*.mdx": "markdown"
+    }
 }
