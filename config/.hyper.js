@@ -11,7 +11,7 @@ module.exports = {
     // default font size in pixels for all tabs
     fontSize: 18,
     // font family with optional fallbacks
-    fontFamily: '"MesloLGMDZ Nerd Font", monospace',
+    fontFamily: '"JetBrains Mono Medium", "MesloLGMDZ Nerd Font", monospace',
 
     // text color
     foregroundColor: "#fff", // currently overwritten by plugin
@@ -126,7 +126,7 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    "hyperminimal",
+    "hyper-hover-header",
     "hyperborder",
     "hyper-night-owl",
     "hyper-search",
