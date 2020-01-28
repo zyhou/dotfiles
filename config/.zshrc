@@ -17,6 +17,7 @@ plugins=(
   nvm-auto
   ssh-agent
   dotenv
+  z
 )
 
 function precmd () {
@@ -32,9 +33,9 @@ alias make="make --silent"
 alias cat='bat'
 alias c="code ."
 alias zshrc="code ~/.zshrc"
-alias sshconfig='code ~/.ssh/config'
 alias l='colorls --group-directories-first --almost-all'
 alias ll='colorls --group-directories-first --almost-all --long'
+alias sshconfig='code ~/.ssh/conf.d'
 
 export ANDROID_HOME=${HOME}/Android/Sdk
 export PATH=${PATH}:${ANDROID_HOME}/tools
