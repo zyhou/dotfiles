@@ -52,5 +52,19 @@
   "merge-conflict.diffViewPosition": "Below",
   "files.associations": {
     "*.mdx": "markdown"
-  }
+  },
+  // Talk
+  // "editor.fontSize": 22,
+  // "terminal.integrated.fontSize": 20,
+  // "scm.diffDecorations": "none",
+  // "editor.lineNumbers": "off",
+  // "workbench.statusBar.visible": false,
+  // "editor.cursorBlinking": "solid",
+  // "window.zoomLevel": 1,
+  // "breadcrumbs.filePath": "off",
+  // "breadcrumbs.symbolPath": "off",
+  // "editor.parameterHints.enabled": false,
+  // "editor.quickSuggestions": false,
+  // "editor.suggestOnTriggerCharacters": false,
+}
 }
