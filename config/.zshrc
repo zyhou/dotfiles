@@ -9,16 +9,19 @@ SPACESHIP_PROMPT_FIRST_PREFIX_SHOW="true"
 SPACESHIP_TIME_SHOW="false"
 SPACESHIP_DIR_TRUNC_REPO="false"
 
+SPACESHIP_BATTERY_THRESHOLD=34
+
 plugins=(
   git
   zsh-autosuggestions
   zsh-completions
   zsh-syntax-highlighting
-  nvm-auto
   ssh-agent
   dotenv
   z
 )
+
+ZSH_DOTENV_PROMPT=false
 
 function precmd () {
   window_title="\033]0;${PWD##*/}\007"
@@ -63,8 +66,27 @@ eval "$(direnv hook $SHELL)"
 
 autoload -U compinit && compinit
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-nvm_auto_switch
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+autoload -U add-zsh-hook
+load-nvmrc() {
+  local node_version="$(nvm version)"
+  local nvmrc_path="$(nvm_find_nvmrc)"
+
+  if [ -n "$nvmrc_path" ]; then
+    local nvmrc_node_version=$(nvm version "$(cat "${nvmrc_path}")")
+
+    if [ "$nvmrc_node_version" = "N/A" ]; then
+      nvm install
+    elif [ "$nvmrc_node_version" != "$node_version" ]; then
+      nvm use
+    fi
+  elif [ "$node_version" != "$(nvm version default)" ]; then
+    echo "Reverting to nvm default version"
+    nvm use default
+  fi
+}
+add-zsh-hook chpwd load-nvmrc
+load-nvmrc
