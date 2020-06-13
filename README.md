@@ -20,7 +20,7 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 
 ## Font vscode + terminal
 
-On Windows, [https://www.jetbrains.com/lp/mono/](JetBrains Mono) with [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono/Medium/complete)
+On Windows, [JetBrains Mono](https://www.jetbrains.com/lp/mono/) with [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono/Medium/complete)
 On Linux, [Cascadia Code](https://github.com/microsoft/cascadia-code) with [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode/complete)
 
 ```bash
