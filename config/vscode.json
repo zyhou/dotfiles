@@ -28,7 +28,7 @@
     "files.trimTrailingWhitespace": false
   },
   "files.trimFinalNewlines": true,
-  // Windows: JetBrains Mono Medium
+  // Windows: Cascadia Code
   "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
   "editor.fontSize": 13,
   "editor.minimap.enabled": false,

@@ -11,7 +11,6 @@ module.exports = {
     // default font size in pixels for all tabs
     fontSize: 18,
     // font family with optional fallbacks
-    // Windows: JetBrains Mono Mediu
     fontFamily: "JetBrainsMono Nerd Font Mono",
 
     // text color

@@ -2,15 +2,18 @@
 
 Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter les choses à savoir concernant mon installation.
 
-![vscode and terminal](https://raw.githubusercontent.com/zyhou/dotfiles/master/vscode_terminal.png)
+![Vscode and terminal](https://raw.githubusercontent.com/zyhou/dotfiles/master/vscode_terminal.png)
 
 ![Desktop Linux](https://raw.githubusercontent.com/zyhou/dotfiles/master/desktop_linux.png)
+
+![Vscode and terminal Windows](https://raw.githubusercontent.com/zyhou/dotfiles/master/vscode_terminal_windows.png)
 
 ## Bureau
 
 - [oh-my-zsh + git plugin](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
 - [extension oh-my-zsh, spaceship-prompt](https://github.com/denysdovhan/spaceship-prompt)
-- [Hyper](https://hyper.is/)
+- [Hyper](https://hyper.is/) on Linux
+- [Windows Terminal](https://github.com/microsoft/terminal) on Windows with WSL 2.0 (Ubuntu 20.4)
 - [arc-theme](https://github.com/jnsh/arc-theme) on my laptop
 - [Arc-darkest](https://www.mate-look.org/p/1317409/) with [arc-darkest-numix-Flat](https://www.mate-look.org/p/1333421/) on personal computer
 - [bat > cat](https://github.com/sharkdp/bat)
@@ -28,12 +31,20 @@ sudo fc-cache -f -v # refresh cache font
 
 ## Extension vscode
 
+- [Night owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl&WT.mc_id=twitter-social-sdras)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 - [Git blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
-- [Night owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl&WT.mc_id=twitter-social-sdras)
+- [MDX](https://marketplace.visualstudio.com/items?itemName=silvenon.mdx)
 
-## Other
+## Tools/Software
 
-All tools/sofware are list in `package.list` file
+### Linux
+
+All stuff are list in `package.list` file
+
+### Windows
+
+- [ScreeToGif](https://www.screentogif.com/) (peek on Linux)
+- [Responsively](https://responsively.app/)
