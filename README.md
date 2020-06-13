@@ -16,7 +16,6 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 ## NPM packages
 
 - [nvm](https://github.com/creationix/nvm)
-- [gotop](https://github.com/cjbassi/gotop)
 - [git standup](https://github.com/kamranahmedse/git-standup)
 
 ## Font vscode + terminal
