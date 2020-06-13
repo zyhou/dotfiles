@@ -1,69 +1,70 @@
 {
-    "window.zoomLevel": 3,
-    "window.openFoldersInNewWindow": "on",
-    "window.titleBarStyle": "custom",
-    "workbench.startupEditor": "none",
-    "workbench.colorTheme": "Night Owl",
-    "workbench.colorCustomizations": {
-        "[Night Owl]": {
-            "activityBar.background": "#000C1D",
-            "activityBar.border": "#102a44",
-            "sideBar.background": "#001122",
-            "sideBar.border": "#102a44",
-            "sideBar.foreground": "#8BADC1",
-            "editor.selectionBackground": "#1d3b53"
-        },
-    },
-    "workbench.editor.enablePreview": false,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true,
-    "git.autofetch": true,
-    "git.enableCommitSigning": true,
-    "extensions.autoUpdate": true,
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
-    "[markdown]": {
-        "files.trimTrailingWhitespace": false
-    },
-    "files.trimFinalNewlines": true,
-    "editor.fontFamily": "'JetBrains Mono Medium', 'MesloLGMDZ Nerd Font'",
-    "editor.fontSize": 13,
-    "editor.minimap.enabled": false,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.renderWhitespace": "none",
-    "editor.detectIndentation": false,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-        // "source.organizeImports": true,
-        "source.fixAll.eslint": true
-    },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "typescript",
-        "typescriptreact"
-    ],
-    "eslint.alwaysShowStatus": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "merge-conflict.diffViewPosition": "Below",
-    "files.associations": {
-        "*.mdx": "markdown"
-    },
-    // Talk
-    // "editor.fontSize": 22,
-    // "terminal.integrated.fontSize": 20,
-    // "scm.diffDecorations": "none",
-    // "editor.lineNumbers": "off",
-    // "workbench.statusBar.visible": false,
-    // "editor.cursorBlinking": "solid",
-    // "window.zoomLevel": 1,
-    // "breadcrumbs.filePath": "off",
-    // "breadcrumbs.symbolPath": "off",
-    // "editor.parameterHints.enabled": false,
-    // "editor.quickSuggestions": false,
-    // "editor.suggestOnTriggerCharacters": false,
+  "window.zoomLevel": 1,
+  "window.openFoldersInNewWindow": "on",
+  "window.titleBarStyle": "custom",
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Night Owl",
+  "workbench.colorCustomizations": {
+    "[Night Owl]": {
+      "activityBar.background": "#000C1D",
+      "activityBar.border": "#102a44",
+      "sideBar.background": "#001122",
+      "sideBar.border": "#102a44",
+      "sideBar.foreground": "#8BADC1",
+      "editor.selectionBackground": "#1d3b53"
+    }
+  },
+  "workbench.editor.enablePreview": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.enableCommitSigning": true,
+  "extensions.autoUpdate": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "files.trimFinalNewlines": true,
+  // Windows: JetBrains Mono Medium
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.fontSize": 13,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderWhitespace": "none",
+  "editor.detectIndentation": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    // "source.organizeImports": true,
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.alwaysShowStatus": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "merge-conflict.diffViewPosition": "Below",
+  "files.associations": {
+    "*.mdx": "markdown"
+  }
+  // Talk
+  // "editor.fontSize": 22,
+  // "terminal.integrated.fontSize": 20,
+  // "scm.diffDecorations": "none",
+  // "editor.lineNumbers": "off",
+  // "workbench.statusBar.visible": false,
+  // "editor.cursorBlinking": "solid",
+  // "window.zoomLevel": 1,
+  // "breadcrumbs.filePath": "off",
+  // "breadcrumbs.symbolPath": "off",
+  // "editor.parameterHints.enabled": false,
+  // "editor.quickSuggestions": false,
+  // "editor.suggestOnTriggerCharacters": false,
 }

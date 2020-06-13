@@ -11,7 +11,8 @@ module.exports = {
     // default font size in pixels for all tabs
     fontSize: 18,
     // font family with optional fallbacks
-    fontFamily: '"JetBrains Mono Medium", "MesloLGMDZ Nerd Font", monospace',
+    // Windows: JetBrains Mono Mediu
+    fontFamily: "JetBrainsMono Nerd Font Mono",
 
     // text color
     foregroundColor: "#fff", // currently overwritten by plugin
@@ -52,7 +53,7 @@ module.exports = {
       lightBlue: "#0066ff",
       lightMagenta: "#cc00ff",
       lightCyan: "#00C7FF",
-      lightWhite: "#ffffff"
+      lightWhite: "#ffffff",
     },
 
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
@@ -79,7 +80,7 @@ module.exports = {
     // hyperborder config
     hyperBorder: {
       borderColors: ["#1D976C", "#93F9B9"],
-      blurredColors: ["#177C59", "#84E0A6"]
+      blurredColors: ["#177C59", "#84E0A6"],
     },
 
     // hyper-pane config
@@ -90,11 +91,11 @@ module.exports = {
           up: "ctrl+alt+up",
           down: "ctrl+alt+down",
           left: "ctrl+alt+left",
-          right: "ctrl+alt+right"
+          right: "ctrl+alt+right",
         },
         jump_prefix: "ctrl+alt", // completed with 1-9 digits
         permutation_modifier: "shift", // Added to jump and navigation hotkeys for pane permutation
-        maximize: "meta+enter"
+        maximize: "meta+enter",
       },
       showIndicators: false, // Show pane number
       indicatorPrefix: "^⌥", // Will be completed with pane number
@@ -103,10 +104,10 @@ module.exports = {
         position: "absolute",
         top: 0,
         left: 0,
-        fontSize: "10px"
+        fontSize: "10px",
       },
       focusOnMouseHover: false,
-      inactivePaneOpacity: 0.6 // Set to 1 to disable inactive panes dimming
+      inactivePaneOpacity: 0.6, // Set to 1 to disable inactive panes dimming
     },
 
     // set to `true` (without backticks) if you're using a Linux setup that doesn't show native menus
@@ -116,7 +117,7 @@ module.exports = {
     // set to `false` if you want to hide the minimize, maximize and close buttons
     // additionally, set to `'left'` if you want them on the left, like in Ubuntu
     // default: `true` on windows and Linux (ignored on macOS)
-    showWindowControls: ""
+    showWindowControls: "",
   },
 
   // a list of plugins to fetch and install from npm
@@ -131,7 +132,7 @@ module.exports = {
     "hyper-night-owl",
     "hyper-search",
     "hyper-pane",
-    "hypercwd"
+    "hypercwd",
   ],
 
   // in development, you can create a directory under
@@ -142,5 +143,5 @@ module.exports = {
   keymaps: {
     // Example
     // 'window:devtools': 'cmd+alt+o'
-  }
+  },
 };
