@@ -6,7 +6,7 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 
 ![Desktop Linux](https://raw.githubusercontent.com/zyhou/dotfiles/master/desktop_linux.png)
 
-![Vscode and terminal Windows](https://raw.githubusercontent.com/zyhou/dotfiles/master/vscode_terminal_windows.png)
+![Vscode and terminal Windows](https://raw.githubusercontent.com/zyhou/dotfiles/master/vscode_terminal_windows.PNG)
 
 ## Bureau
 
