@@ -10,7 +10,7 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 - [extension oh-my-zsh, spaceship-prompt](https://github.com/denysdovhan/spaceship-prompt)
 - [Hyper](https://hyper.is/)
 - [arc theme](https://github.com/jnsh/arc-theme) on my laptop
-- [Arc-darkest)(https://www.mate-look.org/p/1317409/) with [arc-darkest-numix-Flat](https://www.mate-look.org/p/1333421/) on personal computer
+- [Arc-darkest](https://www.mate-look.org/p/1317409/) with [arc-darkest-numix-Flat](https://www.mate-look.org/p/1333421/) on personal computer
 - [bat > cat](https://github.com/sharkdp/bat)
 - [prettyping > ping](http://denilson.sa.nom.br/prettyping/)
 
