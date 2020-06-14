@@ -6,10 +6,13 @@ dbeaver-ce
 discord
 docker compose
 docker engine
+flameshot
 git-standup
 htop
 hyper.js
 insomnia
+postgresql
+postgresql-contrib
 nvm
 oh-my-zsh
 peek
