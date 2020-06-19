@@ -53,7 +53,8 @@
   "merge-conflict.diffViewPosition": "Below",
   "files.associations": {
     "*.mdx": "markdown"
-  }
+  },
+  "debug.javascript.codelens.npmScripts": "never"
   // Talk
   // "editor.fontSize": 22,
   // "terminal.integrated.fontSize": 20,
