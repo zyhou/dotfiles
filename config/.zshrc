@@ -1,5 +1,23 @@
 export ZSH="/home/max/.oh-my-zsh"
 
+export FZF_BASE=/usr/bin/fzf
+
+export FZF_DEFAULT_OPTS="
+--layout=reverse
+--info=inline
+--height=80%
+--multi
+--preview-window=:hidden
+--preview '([[ -f {} ]] && (bat --style=numbers --color=always {} || cat {})) || ([[ -d {} ]] && (tree -C {} | less)) || echo {} 2> /dev/null | head -200'
+--color='hl:148,hl+:154,pointer:032,marker:010,bg+:237,gutter:008'
+--bind '?:toggle-preview'
+--bind 'ctrl-y:execute-silent(echo {+} | xclip -selection clipboard)'
+--bind 'ctrl-v:execute(code {+})'
+"
+export FZF_DEFAULT_COMMAND="fdfind --hidden --follow --exclude '.git' --exclude 'node_modules' --exclude 'build' --exclude 'dist'"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND="$FZF_DEFAULT_COMMAND --type d"
+
 ZSH_THEME="spaceship"
 
 SPACESHIP_PROMPT_FIRST_PREFIX_SHOW="true"
@@ -17,6 +35,7 @@ plugins=(
   dotenv
   ssh-agent
   z
+  fzf
 )
 
 function precmd () {

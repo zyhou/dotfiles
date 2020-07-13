@@ -9,6 +9,7 @@ docker compose
 docker engine
 fd
 flameshot
+fzf
 git-standup
 htop
 hyper.js
@@ -21,6 +22,8 @@ oh-my-zsh
 peek
 ResponsivelyApp
 slack
+tree
 vlc
+xclip
 yarn
 zsh
