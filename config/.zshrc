@@ -30,6 +30,7 @@ alias restartzsh="source ~/.zshrc"
 alias cls="clear"
 alias make="make --silent"
 alias cat='bat'
+alias fd=fdfind
 alias c="code ."
 alias zshrc="code ~/.zshrc"
 alias l='colorls --group-directories-first --almost-all'
