@@ -1,6 +1,6 @@
-# A propos
+# About
 
-Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter les choses à savoir concernant mon installation.
+This repository is a lifeline in case of formatting and allows me to note things to know about my installation.
 
 ![Vscode and terminal](https://raw.githubusercontent.com/zyhou/dotfiles/master/vscode_terminal.png)
 
@@ -8,7 +8,7 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 
 ![Vscode and terminal Windows](https://raw.githubusercontent.com/zyhou/dotfiles/master/vscode_terminal_windows.PNG)
 
-## Bureau
+## Terminal and Linux
 
 - [oh-my-zsh + git plugin](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
 - [extension oh-my-zsh, spaceship-prompt](https://github.com/denysdovhan/spaceship-prompt)
@@ -18,7 +18,7 @@ Ce dépôt est une bouée de sauvetage en cas de formatage et me permet de noter
 - [Arc-darkest](https://www.mate-look.org/p/1317409/) with [arc-darkest-numix-Flat](https://www.mate-look.org/p/1333421/) on personal computer
 - [bat > cat](https://github.com/sharkdp/bat)
 
-## Font vscode + terminal
+## Font vscode + Terminal
 
 On Windows, [JetBrains Mono](https://www.jetbrains.com/lp/mono/) with [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono/Medium/complete)   
 On Linux, [Cascadia Code](https://github.com/microsoft/cascadia-code) with [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode/complete)
