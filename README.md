@@ -1,6 +1,6 @@
 # About
 
-This repository is a lifeline in case of formatting and allows me to note things to know about my installation. If you want to know more about my setup, [maximerichard.dev/setup](https://maximerichard.dev/setup)
+This repository is a lifeline in case of formatting and allows me to note things to know about my installation. If you want to know more about my setup, [maximerichard.dev/setup](https://maximerichard.dev/setup).
 
 ![Vscode and terminal](https://raw.githubusercontent.com/zyhou/dotfiles/master/vscode_terminal.png)
 
