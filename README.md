@@ -20,8 +20,8 @@ This repository is a lifeline in case of formatting and allows me to note things
 
 ## Font vscode + Terminal
 
-On Windows, [JetBrains Mono](https://www.jetbrains.com/lp/mono/) with [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono/Medium/complete)   
-On Linux, [Cascadia Code](https://github.com/microsoft/cascadia-code) with [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode/complete)
+On Linux, [JetBrains Mono](https://www.jetbrains.com/lp/mono/) with [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono/Medium/complete)   
+On Windows, [Cascadia Code](https://github.com/microsoft/cascadia-code) with [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode/complete)
 
 ```bash
 cd <name_of_our_archive.zip>
