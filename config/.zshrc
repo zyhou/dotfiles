@@ -49,26 +49,23 @@ alias aws='docker run --rm -it -v ~/.aws:/root/.aws -v $(pwd):/aws amazon/aws-cl
 
 autoload -U compinit && compinit
 
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+export PATH=/home/max/.fnm:$PATH
+export FNM_LOGLEVEL=quiet
+eval "$(fnm env)"
 
 autoload -U add-zsh-hook
-load-nvmrc() {
-  local node_version="$(nvm version)"
-  local nvmrc_path="$(nvm_find_nvmrc)"
-
-  if [ -n "$nvmrc_path" ]; then
-    local nvmrc_node_version=$(nvm version "$(cat "${nvmrc_path}")")
-
-    if [ "$nvmrc_node_version" = "N/A" ]; then
-      nvm install
-    elif [ "$nvmrc_node_version" != "$node_version" ]; then
-      nvm use
-    fi
-  elif [ "$node_version" != "$(nvm version default)" ]; then
-    echo "Reverting to nvm default version"
-    nvm use default
+_fnm_autoload_hook () {
+  if [[ -f .node-version && -r .node-version ]]; then
+    echo "fnm: Found .node-version"
+    fnm use
+  elif [[ -f .nvmrc && -r .nvmrc ]]; then
+    echo "fnm: Found .nvmrc"
+    fnm use
+  else
+	fnm use default
   fi
 }
-add-zsh-hook chpwd load-nvmrc
-load-nvmrc
+add-zsh-hook chpwd _fnm_autoload_hook && _fnm_autoload_hook
+
+eval "$(direnv hook zsh)"
+eval "$(starship init zsh)"
