@@ -18,30 +18,20 @@ export FZF_DEFAULT_COMMAND="fdfind --hidden --follow --exclude '.git' --exclude 
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_ALT_C_COMMAND="$FZF_DEFAULT_COMMAND --type d"
 
-ZSH_THEME="spaceship"
-
-SPACESHIP_PROMPT_FIRST_PREFIX_SHOW="true"
-SPACESHIP_TIME_SHOW="false"
-SPACESHIP_DIR_TRUNC_REPO="false"
-SPACESHIP_BATTERY_THRESHOLD=34
-
-DISABLE_AUTO_TITLE="true"
-
 plugins=(
   git
   zsh-autosuggestions
   zsh-completions
-  zsh-syntax-highlighting
-  dotenv
+  fast-syntax-highlighting
   ssh-agent
   z
   fzf
 )
 
-function precmd () {
-  window_title="\033]0;${PWD##*/}\007"
-  echo -ne "$window_title"
+function set_win_title(){
+    echo -ne "\033]0; $(basename $PWD) \007"
 }
+precmd_functions+=(set_win_title)
 
 source $ZSH/oh-my-zsh.sh
 
