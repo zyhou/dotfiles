@@ -69,7 +69,7 @@ _fnm_autoload_hook () {
     echo "fnm: Found .nvmrc"
     fnm use
   else
-	fnm use default
+    fnm use default
   fi
 }
 add-zsh-hook chpwd _fnm_autoload_hook && _fnm_autoload_hook
