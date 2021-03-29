@@ -39,6 +39,7 @@ sudo fc-cache -f -v # refresh cache font
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 - [Git blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
 - [MDX](https://marketplace.visualstudio.com/items?itemName=silvenon.mdx)
+- [ShellCheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck)
 
 ## Tools/Software
 
