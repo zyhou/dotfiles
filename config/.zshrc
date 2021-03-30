@@ -35,6 +35,7 @@ plugins=(
   fzf
 )
 
+DISABLE_AUTO_TITLE="true"
 function set_win_title(){
     echo -ne "\033]0; $(basename $PWD) \007"
 }
