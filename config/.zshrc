@@ -53,6 +53,7 @@ alias zshrc="code ~/.zshrc"
 alias l='colorls --group-directories-first --almost-all'
 alias ll='colorls --group-directories-first --almost-all --long'
 alias sshconfig='code ~/.ssh/conf.d'
+alias myip='curl -4 ifconfig.co && curl -6 ifconfig.co'
 alias aws='docker run --rm -it -v ~/.aws:/root/.aws -v $(pwd):/aws amazon/aws-cli:latest' # docker pull amazon/aws-cli:latest
 
 autoload -U compinit && compinit
