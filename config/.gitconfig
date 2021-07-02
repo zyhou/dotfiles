@@ -24,3 +24,5 @@
 	defaultBranch = main
 [fetch]
 	prune = true
+[rebase]
+	autosquash = true
