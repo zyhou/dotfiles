@@ -19,10 +19,11 @@ This repository is a lifeline in case of formatting and allows me to note things
 - [bat > cat](https://github.com/sharkdp/bat)
 - [dust > du](https://github.com/bootandy/dust)
 - [fd > find](https://github.com/sharkdp/fd)
+- [exa > ls](https://github.com/ogham/exa)
 
 ## Font vscode + Terminal
 
-On Linux, [JetBrains Mono](https://www.jetbrains.com/lp/mono/) with [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono/Medium/complete)   
+On Linux, [JetBrains Mono](https://www.jetbrains.com/lp/mono/) with [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono/Medium/complete)
 On Windows, [Cascadia Code](https://github.com/microsoft/cascadia-code) with [nerd-fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode/complete)
 
 ```bash
