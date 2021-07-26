@@ -6,3 +6,6 @@ error_symbol = "[✗](bold red) "
 
 [cmd_duration]
 min_time = 500
+
+[git_metrics]
+disabled = false
