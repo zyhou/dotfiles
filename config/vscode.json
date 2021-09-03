@@ -40,6 +40,7 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
+    // "source.organizeImports": true,
     "source.fixAll.eslint": true
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -47,7 +48,8 @@
   "merge-conflict.diffViewPosition": "Below",
   "debug.javascript.codelens.npmScripts": "never",
   "diffEditor.ignoreTrimWhitespace": false,
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "typescript.tsserver.maxTsServerMemory": 8192 // 3072
   //   Talk
   //   "editor.fontSize": 15,
   //   "terminal.integrated.fontSize": 20,
