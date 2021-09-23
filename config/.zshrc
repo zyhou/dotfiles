@@ -55,9 +55,9 @@ alias c="code ."
 alias zshrc="code ~/.zshrc"
 alias sshconfig='code ~/.ssh/conf.d'
 alias myip='curl -4 ifconfig.co && curl -6 ifconfig.co'
-alias aws='docker run --rm -it -v ~/.aws:/root/.aws -v $(pwd):/aws amazon/aws-cli:latest' # docker pull amazon/aws-cli:latest
 
 autoload -U compinit && compinit
+complete -C aws_completer aws
 
 export PATH=/home/max/.fnm:$PATH
 export FNM_LOGLEVEL=quiet
@@ -79,3 +79,6 @@ add-zsh-hook chpwd _fnm_autoload_hook && _fnm_autoload_hook
 
 eval "$(direnv hook zsh)"
 eval "$(starship init zsh)"
+
+export PNPM_HOME="/home/max/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
