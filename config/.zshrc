@@ -1,4 +1,9 @@
 export ZSH="/home/max/.oh-my-zsh"
+export TIMEFMT=$'\t%E real,\t%U user,\t%S sys'
+
+function zshtime() {
+  for i in $(seq 1 10); do time zsh -i -c exit; done
+}
 
 export FZF_BASE=/usr/bin/fzf
 
@@ -45,7 +50,6 @@ source $ZSH/oh-my-zsh.sh
 
 alias restartzsh="source ~/.zshrc"
 alias cls="clear"
-alias make="make --silent"
 alias cat='bat'
 alias fd=fdfind
 alias l="exa --icons --all --group-directories-first"
