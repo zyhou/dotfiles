@@ -48,7 +48,7 @@ precmd_functions+=(set_win_title)
 
 source $ZSH/oh-my-zsh.sh
 
-alias restartzsh="source ~/.zshrc"
+alias restartzsh="exec zsh"
 alias cls="clear"
 alias cat='bat'
 alias fd=fdfind
