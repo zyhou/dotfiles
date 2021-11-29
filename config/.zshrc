@@ -60,7 +60,20 @@ alias zshrc="code ~/.zshrc"
 alias sshconfig='code ~/.ssh/conf.d'
 alias myip='curl -4 ifconfig.co && curl -6 ifconfig.co'
 
-autoload -U compinit && compinit
+autoload -Uz compinit
+_comp_path="$HOME/.zcompdump"
+# #q expands globs in conditional expressions
+if [[ $_comp_path(#qNmh-20) ]]; then
+  # -C (skip function check) implies -i (skip security check).
+  compinit -C -d "$_comp_path"
+else
+  mkdir -p "$_comp_path:h"
+  compinit -i -d "$_comp_path"
+  # Keep $_comp_path younger than cache time even if it isn't regenerated.
+  touch "$_comp_path"
+fi
+unset _comp_path
+
 complete -C aws_completer aws
 
 export PATH=/home/max/.fnm:$PATH
