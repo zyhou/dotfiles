@@ -25,6 +25,7 @@ postgresql
 postgresql-contrib
 ResponsivelyApp
 slack
+tmux
 vlc
 xclip
 yarn
