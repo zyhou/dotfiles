@@ -1,5 +1,6 @@
 albert
 bat
+bottom
 code
 dbeaver-ce
 direnv
@@ -14,17 +15,16 @@ fnm
 fzf
 git-standup
 htop
-hyper.js
 insomnia
+oh-my-zsh
+openssh-server
 piper
+peek
 postgresql
 postgresql-contrib
-oh-my-zsh
-peek
 ResponsivelyApp
 slack
 vlc
 xclip
 yarn
-ytop
 zsh
