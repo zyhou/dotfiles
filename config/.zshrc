@@ -59,6 +59,7 @@ alias c="code ."
 alias zshrc="code ~/.zshrc"
 alias sshconfig='code ~/.ssh/conf.d'
 alias myip='curl -4 ifconfig.co && curl -6 ifconfig.co'
+alias open='xdg-open'
 
 autoload -Uz compinit
 _comp_path="$HOME/.zcompdump"
@@ -78,24 +79,18 @@ complete -C aws_completer aws
 
 export PATH=/home/max/.fnm:$PATH
 export FNM_LOGLEVEL=quiet
-eval "$(fnm env)"
 
-autoload -U add-zsh-hook
-_fnm_autoload_hook () {
-  if [[ -f .node-version && -r .node-version ]]; then
-    echo "fnm: Found .node-version"
-    fnm use
-  elif [[ -f .nvmrc && -r .nvmrc ]]; then
-    echo "fnm: Found .nvmrc"
-    fnm use
-  else
-    fnm use default
-  fi
-}
-add-zsh-hook chpwd _fnm_autoload_hook && _fnm_autoload_hook
-
+eval "$(fnm env --use-on-cd)"
 eval "$(direnv hook zsh)"
 eval "$(starship init zsh)"
+
+export PNPM_HOME="/home/max/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+
+export DENO_INSTALL="/home/max/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+
+export PATH="$PATH:/usr/bin/Postman"
 
 export PNPM_HOME="/home/max/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
