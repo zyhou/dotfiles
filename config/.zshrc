@@ -91,6 +91,3 @@ export DENO_INSTALL="/home/max/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
 export PATH="$PATH:/usr/bin/Postman"
-
-export PNPM_HOME="/home/max/.local/share/pnpm"
-export PATH="$PNPM_HOME:$PATH"
