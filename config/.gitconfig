@@ -4,6 +4,7 @@
 	name = zyhou
 [push]
 	default = simple
+	autoSetupRemote = true
 [merge]
     tool = meld
 [alias]
@@ -27,3 +28,5 @@
 	prune = true
 [rebase]
 	autosquash = true
+[help]
+	autocorrect = 20
