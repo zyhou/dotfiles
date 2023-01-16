@@ -60,6 +60,7 @@ alias zshrc="code ~/.zshrc"
 alias sshconfig='code ~/.ssh/conf.d'
 alias myip='curl -4 ifconfig.co && curl -6 ifconfig.co'
 alias open='xdg-open'
+alias clipboard='xclip -selection clipboard'
 
 autoload -Uz compinit
 _comp_path="$HOME/.zcompdump"
