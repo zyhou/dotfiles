@@ -13,6 +13,8 @@ window:
     columns: 80
     lines: 30
 
+  dynamic_title: true
+
 # Font configuration
 font:
   normal:
@@ -69,10 +71,9 @@ colors:
     white: "#ffffff"
 
   # Search colors
-  search:
-    footer_bar:
-      background: "#011627"
-      foreground: "#21c7a8"
+  footer_bar:
+    background: "#011627"
+    foreground: "#21c7a8"
 
 # Cursor style
 cursor:
@@ -80,6 +81,9 @@ cursor:
     # Cursor shape
     # ▇ Block or _ Underline or | Beam
     shape: Beam
+
+# Live config reload (changes require restart)
+live_config_reload: true
 
 # Shell
 shell:
