@@ -3,7 +3,7 @@
 [user]
 	name = zyhou
 [push]
-	default = simple
+	default = current
 	autoSetupRemote = true
 [merge]
     tool = meld
