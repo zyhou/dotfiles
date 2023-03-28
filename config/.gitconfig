@@ -28,5 +28,6 @@
 	prune = true
 [rebase]
 	autosquash = true
+	updateRefs = true
 [help]
 	autocorrect = 20
