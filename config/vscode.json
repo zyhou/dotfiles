@@ -34,9 +34,13 @@
   "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
   "editor.fontSize": 13,
   "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": true,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.renderWhitespace": "none",
   "editor.bracketPairColorization.enabled": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.linkedEditing": true,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
@@ -44,9 +48,6 @@
     "source.fixAll.eslint": true
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
-  },
   "javascript.inlayHints.enumMemberValues.enabled": true,
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   "javascript.inlayHints.parameterTypes.enabled": true,
@@ -63,6 +64,7 @@
   "security.workspace.trust.untrustedFiles": "open",
   "merge-conflict.diffViewPosition": "Below",
   "debug.javascript.codelens.npmScripts": "never"
+
   //   Talk
   //   "editor.fontSize": 15,
   //   "terminal.integrated.fontSize": 20,
