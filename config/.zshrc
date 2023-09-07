@@ -33,10 +33,8 @@ _fzf_compgen_dir() {
 plugins=(
   git
   zsh-autosuggestions
-  zsh-completions
   fast-syntax-highlighting
   ssh-agent
-  z
   fzf
 )
 
@@ -46,13 +44,14 @@ function set_win_title(){
 }
 precmd_functions+=(set_win_title)
 
+fpath+="${ZSH_CUSTOM:-"$ZSH/custom"}/plugins/zsh-completions/src"
 source $ZSH/oh-my-zsh.sh
 
-alias restartzsh="exec zsh"
+alias restartzsh="omz reload"
 alias cls="clear"
 alias cat='bat'
 alias fd=fdfind
-alias l="exa --icons --all --group-directories-first"
+alias l="eza --icons --all --group-directories-first"
 alias ll="l --long --group"
 alias tree="ll --tree --level=4 -I=.git --git-ignore"
 alias c="code ."
@@ -62,28 +61,11 @@ alias myip='curl -4 ifconfig.co && curl -6 ifconfig.co'
 alias open='xdg-open'
 alias clipboard='xclip -selection clipboard'
 
-autoload -Uz compinit
-_comp_path="$HOME/.zcompdump"
-# #q expands globs in conditional expressions
-if [[ $_comp_path(#qNmh-20) ]]; then
-  # -C (skip function check) implies -i (skip security check).
-  compinit -C -d "$_comp_path"
-else
-  mkdir -p "$_comp_path:h"
-  compinit -i -d "$_comp_path"
-  # Keep $_comp_path younger than cache time even if it isn't regenerated.
-  touch "$_comp_path"
-fi
-unset _comp_path
-
-complete -C aws_completer aws
-
 export PATH=/home/max/.fnm:$PATH
-export FNM_LOGLEVEL=quiet
-
-eval "$(fnm env --use-on-cd)"
+eval "$(fnm env --use-on-cd --version-file-strategy=recursive)"
 eval "$(direnv hook zsh)"
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
 
 export PNPM_HOME="/home/max/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
