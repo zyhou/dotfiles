@@ -1,8 +1,8 @@
 {
-  "window.zoomLevel": 1,
   "window.openFoldersInNewWindow": "on",
   "window.titleBarStyle": "custom",
   "window.menuBarVisibility": "toggle",
+  "window.commandCenter": false,
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "Night Owl",
   "workbench.colorCustomizations": {
@@ -48,22 +48,23 @@
     "source.fixAll.eslint": true
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "editor.inlayHints.enabled": "on",
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "javascript.inlayHints.parameterTypes.enabled": true,
-  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "javascript.inlayHints.variableTypes.enabled": true,
-  "javascript.inlayHints.parameterNames.enabled": "all",
-  "typescript.inlayHints.enumMemberValues.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterTypes.enabled": true,
   "typescript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
   "typescript.inlayHints.variableTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
   "typescript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.parameterNames.enabled": "all",
   "telemetry.telemetryLevel": "error",
   "security.workspace.trust.untrustedFiles": "open",
   "merge-conflict.diffViewPosition": "Below",
-  "debug.javascript.codelens.npmScripts": "never"
+  "debug.javascript.codelens.npmScripts": "never",
+  "workbench.sideBar.location": "right",
+  "window.zoomLevel": 1
 
   //   Talk
   //   "editor.fontSize": 15,
