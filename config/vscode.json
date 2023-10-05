@@ -3,6 +3,8 @@
   "window.titleBarStyle": "custom",
   "window.menuBarVisibility": "toggle",
   "window.commandCenter": false,
+  "window.density.editorTabHeight": "compact",
+  "window.zoomLevel": 1,
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "Night Owl",
   "workbench.colorCustomizations": {
@@ -17,6 +19,7 @@
   },
   "workbench.editor.enablePreview": false,
   "workbench.layoutControl.enabled": false,
+  "workbench.sideBar.location": "right",
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "git.confirmSync": false,
@@ -48,6 +51,9 @@
     "source.fixAll.eslint": true
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
   "editor.inlayHints.enabled": "on",
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
@@ -63,9 +69,7 @@
   "security.workspace.trust.untrustedFiles": "open",
   "merge-conflict.diffViewPosition": "Below",
   "debug.javascript.codelens.npmScripts": "never",
-  "workbench.sideBar.location": "right",
-  "window.zoomLevel": 1
-
+  "diffEditor.ignoreTrimWhitespace": false
   //   Talk
   //   "editor.fontSize": 15,
   //   "terminal.integrated.fontSize": 20,
