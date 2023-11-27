@@ -1,0 +1,7 @@
+# https://github.com/sharkdp/bat
+
+# mkdir -p "$(bat --config-dir)/themes"
+# cd "$(bat --config-dir)/themes"
+# bat cache --build
+
+--theme="Catppuccin-mocha" # latte

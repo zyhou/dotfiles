@@ -1,0 +1,44 @@
+[include]
+  # For username / creds / etc
+  path = ~/.gitconfig.local
+[color]
+	ui = auto
+[push]
+	default = current
+	autoSetupRemote = true
+[merge]
+    tool = meld
+[alias]
+    undo = reset --soft HEAD^
+    cleanup = !git for-each-ref --format '%(refname:short)' --merged HEAD refs/heads/ | grep -v master | grep -v main | xargs -r git branch -D
+[commit]
+	gpgsign = true
+[pull]
+	ff = only
+	autoStash = true
+[init]
+	defaultBranch = main
+[fetch]
+	prune = true
+[rebase]
+	autosquash = true
+	updateRefs = true
+	autoStash = true
+[help]
+	autocorrect = 20
+# nvim + https://github.com/dandavison/delta
+[core]
+	editor = vim
+	pager = delta
+[interactive]
+    diffFilter = delta --color-only --features=interactive
+[delta]
+	syntax-theme = Catppuccin-mocha # Use bat theme
+    navigate = true # use n and N to move between diff sections
+	side-by-side = true
+[delta "interactive"]
+    keep-plus-minus-markers = false
+[merge]
+    conflictstyle = diff3
+[diff]
+    colorMoved = default
