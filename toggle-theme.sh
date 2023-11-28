@@ -1,11 +1,13 @@
 #!/usr/bin/env sh
-# Toggle dark and light themes for Linux Mint Mate App, tmux, alacritty
-# and bat
+# Toggle dark and light themes for Linux Mint Mate App, tmux, alacritty,
+# nvim and bat
 
 CURRENT_MODE=$(gsettings get org.gnome.desktop.interface color-scheme)
-ALACRITTYCONF="${HOME}/.config/alacritty/alacritty.yml"
-TMUXCONF="${HOME}/.tmux.conf"
-BATCONF="${HOME}/.config/bat/config"
+ALACRITTYCONF="./alacritty/.config/alacritty/alacritty.yml"
+TMUXCONF="./tmux/.tmux.conf"
+BATCONF="./bat/.config/bat/config"
+GITCONF="./git/.gitconfig"
+VIMCONF="./nvim/.config/nvim/lua/plugins/colorscheme.lua"
 
 # Toggle logic based on current mode
 if [ "$CURRENT_MODE" = "'prefer-dark'" ]; then
@@ -16,6 +18,8 @@ if [ "$CURRENT_MODE" = "'prefer-dark'" ]; then
     sed -i "s/catppuccin-mocha/catppuccin-latte/" "$ALACRITTYCONF"
     sed -i "s/@catppuccin_flavour 'mocha'/@catppuccin_flavour 'latte'/" "$TMUXCONF"
     sed -i "s/Catppuccin-mocha/Catppuccin-latte/" "$BATCONF"
+    sed -i "s/Catppuccin-mocha/Catppuccin-latte/" "$GITCONF"
+    sed -i 's/catppuccin-mocha/catppuccin-latte/' "$VIMCONF"
 else
     gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
     gsettings set org.mate.interface gtk-theme 'Catppuccin-Mocha-Standard-Blue-Dark'
@@ -24,6 +28,8 @@ else
     sed -i "s/catppuccin-latte/catppuccin-mocha/" "$ALACRITTYCONF"
     sed -i "s/@catppuccin_flavour 'latte'/@catppuccin_flavour 'mocha'/" "$TMUXCONF"
     sed -i "s/Catppuccin-latte/Catppuccin-mocha/" "$BATCONF"
+    sed -i "s/Catppuccin-latte/Catppuccin-mocha/" "$GITCONF"
+    sed -i 's/catppuccin-latte/catppuccin-mocha/' "$VIMCONF"
 fi
 
 tmux source-file "$TMUXCONF"
