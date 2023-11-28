@@ -43,5 +43,5 @@ echo '[*] Install Eza'
 cargo install eza
 
 # z (better cd) => zoxide - https://github.com/ajeetdsouza/zoxide
-echo '[*] Install Eza'
-cargo install eza
+echo '[*] Install Zoxide'
+cargo install zoxide

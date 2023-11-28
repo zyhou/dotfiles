@@ -61,7 +61,7 @@ alias myip='curl -4 ifconfig.co && curl -6 ifconfig.co'
 alias open='xdg-open'
 alias clipboard='xclip -selection clipboard'
 
-export PATH="$PATH:/home/max/.fnm"
+export PATH="/home/max/.fnm:$PATH"
 eval "$(fnm env --use-on-cd --version-file-strategy=recursive)"
 eval "$(direnv hook zsh)"
 eval "$(starship init zsh)"
