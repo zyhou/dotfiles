@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=catpuccin-latte
+Type=X-GNOME-Metatheme
+Comment=
+
+[X-GNOME-Metatheme]
+GtkTheme=Catppuccin-Latte-Standard-Blue-Light
+MetacityTheme=Catppuccin-Latte-Standard-Blue-Light
+IconTheme=Tela-circle
+GtkColorScheme=link_color:#1A73E8,visited_link_color:#9C27B0
+CursorTheme=Catppuccin-cursors
+CursorSize=24
