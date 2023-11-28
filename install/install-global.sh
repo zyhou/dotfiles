@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 echo '[*] Install apt requierements ...'
-sudo apt -y install apt-transport-https curl stow git zsh unzip fzf
+sudo apt -y install apt-transport-https curl stow git zsh unzip fzf neofetch
 
 echo '[*] Make zsh the default shell ...'
 chsh -s $(which zsh)
