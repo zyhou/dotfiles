@@ -20,29 +20,7 @@ unset plugin
 
 https://github.com/catppuccin
 
-https://github.com/junegunn/fzf
-https://ohmyz.sh/
-
-- https://github.com/zsh-users/zsh-autosuggestions
-- https://github.com/zdharma-continuum/fast-syntax-highlighting
-- https://github.com/zsh-users/zsh-completions
-
-https://github.com/sharkdp/fd
-https://github.com/sharkdp/bat
-https://code.visualstudio.com/
-https://github.com/Schniz/fnm
-https://starship.rs/
-https://direnv.net/
 https://pnpm.io/
-
-- https://github.com/XAMPPRocky/tokei
-- https://github.com/eza-community/eza
-- https://github.com/ajeetdsouza/zoxide
-- https://github.com/casey/just
-- https://github.com/alacritty/alacritty
-- https://github.com/BurntSushi/ripgrep
-- https://github.com/bootandy/dust
-- https://github.com/dandavison/delta
 
 https://www.nerdfonts.com/#home
 sudo fc-cache -f -v # refresh cache font
