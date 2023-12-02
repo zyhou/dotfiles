@@ -2,7 +2,7 @@
 # https://github.com/alacritty/alacritty
 
 env:
-  TERM: xterm-256color
+  COLORTERM: truecolor # many lib use that env
 
 # Window manager
 window:

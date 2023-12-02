@@ -6,28 +6,37 @@ function zshtime() {
   for i in $(seq 1 10); do time zsh -i -c exit; done
 }
 
+# --color=bg+:#ccd0da,bg:#eff1f5,spinner:#dc8a78,hl:#d20f39
+# --color=fg:#4c4f69,header:#d20f39,info:#8839ef,pointer:#dc8a78
+# --color=marker:#dc8a78,fg+:#4c4f69,prompt:#8839ef,hl+:#d20f39
+
+# https://github.com/junegunn/fzf
+# https://github.com/sharkdp/fd
 export FZF_BASE=/usr/bin/fzf
 export FZF_DEFAULT_OPTS="
 --layout=reverse
 --info=inline
 --height=80%
 --multi
---preview-window=:hidden
---preview '([[ -f {} ]] && (bat --style=numbers --color=always {} || cat {})) || ([[ -d {} ]] && (tree -C {} | less)) || echo {} 2> /dev/null | head -200'
---color='hl:148,hl+:154,pointer:032,marker:010,bg+:237,gutter:008'
+--color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8
+--color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc
+--color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8
 --bind '?:toggle-preview'
 --bind 'ctrl-y:execute-silent(echo {+} | xclip -selection clipboard)'
 --bind 'ctrl-v:execute(code {+})'
 "
-export FZF_DEFAULT_COMMAND="fdfind --hidden --follow --exclude '.git' --exclude 'node_modules' --exclude 'build' --exclude 'dist'"
+export FZF_DEFAULT_COMMAND="fdfind --hidden --follow --exclude '.git'"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_CTRL_T_OPTS="--preview 'bat -n --color=always {}'"
 export FZF_ALT_C_COMMAND="$FZF_DEFAULT_COMMAND --type d"
+export FZF_ALT_C_OPTS="--preview 'tree -C {}'"
+
 
 _fzf_compgen_path() {
-    fd . "$1"
+    fdfind --hidden --follow --exclude '.git' . "$1"
 }
 _fzf_compgen_dir() {
-    fd --type d . "$1"
+    fdfind --hidden --follow --exclude '.git' --type d . "$1"
 }
 
 plugins=(
@@ -38,6 +47,7 @@ plugins=(
   fzf
 )
 
+# https://starship.rs/advanced-config/#change-window-title
 DISABLE_AUTO_TITLE="true"
 function set_win_title(){
     echo -ne "\033]0; $(basename $PWD) \007"
