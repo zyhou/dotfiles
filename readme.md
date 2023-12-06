@@ -24,6 +24,7 @@ https://pnpm.io/
 
 https://www.nerdfonts.com/#home
 sudo fc-cache -f -v # refresh cache font
+bat cache --build # build bat theme
 
 ```sh
 [includeIf "gitdir:~/bar/foo/"]
