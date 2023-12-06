@@ -23,7 +23,7 @@ export FZF_DEFAULT_OPTS="
 --color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8
 --bind '?:toggle-preview'
 --bind 'ctrl-y:execute-silent(echo {+} | xclip -selection clipboard)'
---bind 'ctrl-v:execute(code {+})'
+--bind 'ctrl-v:execute(nvim {+})'
 "
 export FZF_DEFAULT_COMMAND="fdfind --hidden --follow --exclude '.git'"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
@@ -65,8 +65,9 @@ alias l="eza --icons --all --group-directories-first"
 alias ll="l --long --group"
 alias tree="ll --tree --level=4 -I=.git --git-ignore"
 alias c="code ."
-alias zshrc="code ~/.zshrc"
-alias sshconfig='code ~/.ssh/conf.d'
+alias n="nvim ."
+alias zshrc="nvim ~/.zshrc"
+alias sshconfig='nvim ~/.ssh/conf.d'
 alias myip='curl -4 ifconfig.co && curl -6 ifconfig.co'
 alias open='xdg-open'
 alias clipboard='xclip -selection clipboard'

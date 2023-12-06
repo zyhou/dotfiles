@@ -1,4 +1,8 @@
-https://www.gnu.org/software/stow/
+# Maxime's dotfiles
+
+This repository is a lifeline in case of formatting and allows me to note things to know about my installation. If you want to know more about my setup, [maximerichard.dev/setup](https://maximerichard.dev/setup).
+
+I use [Stow](https://www.gnu.org/software/stow/) to maintain my dotfiles repsitory.
 
 ## Oh My Zsh
 
@@ -23,8 +27,6 @@ https://github.com/catppuccin
 https://pnpm.io/
 
 https://www.nerdfonts.com/#home
-sudo fc-cache -f -v # refresh cache font
-bat cache --build # build bat theme
 
 ```sh
 [includeIf "gitdir:~/bar/foo/"]
