@@ -10,11 +10,6 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzz")
 vim.keymap.set("n", "N", "Nzz")
 
--- Move lines around
-local opts = { noremap = true, silent = true }
-vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv", opts) -- default ddp
-vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", opts)
-
 -- Sed current word
 vim.keymap.set("n", "<leader>S", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
