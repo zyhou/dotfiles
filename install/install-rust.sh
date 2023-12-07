@@ -45,3 +45,7 @@ cargo install eza
 # z (better cd) => zoxide - https://github.com/ajeetdsouza/zoxide
 echo '[*] Install Zoxide'
 cargo install zoxide
+
+# bottom => htop - Bottom://github.com/ClementTsang/bottom
+echo '[*] Install Zoxide'
+cargo install bottom --locked

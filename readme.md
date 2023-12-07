@@ -1,14 +1,37 @@
-# Maxime's dotfiles
+<h1 align="center">
+Maxime's dotfiles <br>
+<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png" alt="catppuccin palette"  width="600px" />
+</h1>
+<br />
 
-This repository is a lifeline in case of formatting and allows me to note things to know about my installation. If you want to know more about my setup, [maximerichard.dev/setup](https://maximerichard.dev/setup).
+You want to know more about my setup -> [maximerichard.dev/setup](https://maximerichard.dev/setup).
 
-I use [Stow](https://www.gnu.org/software/stow/) to maintain my dotfiles repsitory.
+## Terminal and tools
 
-## Oh My Zsh
+As a theme, I use [Catppuccin](https://catppuccin.com/) Latte and Mocha. My font is the [JetBrains Mono](https://www.jetbrains.com/lp/mono/) with [Nerd fonts](https://www.nerdfonts.com/).
 
-### Performance
+- [Stow](https://www.gnu.org/software/stow/), to maintain my dotfiles repository
+- [Alacritty](https://alacritty.org/), terminal
+- [tmux](https://github.com/tmux/tmux), terminal multiplexer
+- [Oh My Zsh](https://ohmyz.sh/), zsh plugin manager
+- [Spaceship](https://spaceship-prompt.sh/), prompt
+- [Neovim](https://neovim.io/) with [LazyVim](https://www.lazyvim.org/), Vim-based text editor
+- [fnm](https://fnm.vercel.app), Node.js version manager
+- [direnv](https://direnv.net/), environment variables management
+- [lazygit](https://github.com/jesseduffield/lazygit), simple terminal UI for git commands
+- [bat > cat](https://github.com/sharkdp/bat)
+- [dust > du](https://github.com/bootandy/dust)
+- [fd > find](https://github.com/sharkdp/fd)
+- [eza > ls](https://github.com/eza-community/eza)
+- [ripgrep > grep](https://github.com/BurntSushi/ripgrep)
+- [tokei > cloc](https://github.com/XAMPPRocky/tokei)
+- [delta > git diff](https://github.com/dandavison/delta)
+- [zoxide > z > cd](https://github.com/ajeetdsouza/zoxide)
+- [bottom > htop](https://github.com/ClementTsang/bottom)
 
-In `oh-my-zsh.sh` file, inside the plugin loop add the performance stat
+## Oh My Zsh Performance
+
+In `oh-my-zsh.sh` file, inside the plugin loop, add a logger
 
 ```sh
 # Load all of the plugins that were defined in ~/.zshrc
@@ -22,22 +45,20 @@ done
 unset plugin
 ```
 
-https://github.com/catppuccin
+## Git
 
-https://pnpm.io/
-
-https://www.nerdfonts.com/#home
-
-```sh
-[includeIf "gitdir:~/bar/foo/"]
-    path = ~/bar/foo/.gitconfig
-```
-
-~/.gitconfig.local
+Create a `~/.gitconfig.local` file, and fill:
 
 ```sh
 [user]
   name =
   email =
   signingkey =
+```
+
+Tips: It's possible to have a .gitconfig per directory
+
+```sh
+[includeIf "gitdir:~/bar/foo/"]
+    path = ~/bar/foo/.gitconfig
 ```
