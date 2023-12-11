@@ -8,7 +8,7 @@ You want to know more about my setup -> [maximerichard.dev/setup](https://maxime
 
 ## Terminal and tools
 
-As a theme, I use [Catppuccin](https://catppuccin.com/) Latte and Mocha. My font is the [JetBrains Mono](https://www.jetbrains.com/lp/mono/) with [Nerd fonts](https://www.nerdfonts.com/).
+As a theme, I love [Catppuccin](https://catppuccin.com/) :heart:, the Latte and Mocha version. My font is the [JetBrains Mono](https://www.jetbrains.com/lp/mono/) with [Nerd fonts](https://www.nerdfonts.com/).
 
 - [Stow](https://www.gnu.org/software/stow/), to maintain my dotfiles repository
 - [Alacritty](https://alacritty.org/), terminal

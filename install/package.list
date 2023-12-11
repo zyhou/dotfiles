@@ -1,7 +1,6 @@
 cloudflared
 code
 dbeaver-ce
-direnv
 discord
 docker
 docker compose
@@ -9,8 +8,6 @@ docker compose
 # k9s kind
 firefox
 flameshot
-fnm
-fzf
 gh
 jq
 lazygit
