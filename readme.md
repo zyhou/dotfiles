@@ -4,6 +4,11 @@ Maxime's dotfiles <br>
 </h1>
 <br />
 
+<p align="center">
+<img src="./assets/full-mocha.png" width="600" alt="" />
+<img src="./assets/full-latte.png" width="600px" /> <br>
+</p>
+
 You want to know more about my setup -> [maximerichard.dev/setup](https://maximerichard.dev/setup).
 
 ## Terminal and tools
