@@ -8,6 +8,7 @@ TMUXCONF="./tmux/.tmux.conf"
 BATCONF="./bat/.config/bat/config"
 GITCONF="./git/.gitconfig"
 VIMCONF="./nvim/.config/nvim/lua/plugins/colorscheme.lua"
+ZSHRC="./zsh/.zshrc"
 
 # Toggle logic based on current mode
 if [ "$CURRENT_MODE" = "'prefer-dark'" ]; then
@@ -20,6 +21,8 @@ if [ "$CURRENT_MODE" = "'prefer-dark'" ]; then
     sed -i "s/Catppuccin-mocha/Catppuccin-latte/" "$BATCONF"
     sed -i "s/Catppuccin-mocha/Catppuccin-latte/" "$GITCONF"
     sed -i 's/catppuccin-mocha/catppuccin-latte/' "$VIMCONF"
+    sed -i 's/mocha.yml/latte.yml/' "$ZSHRC"
+    fast-theme XDG:catppuccin-latte
 else
     gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
     gsettings set org.mate.interface gtk-theme 'Catppuccin-Mocha-Standard-Blue-Dark'
@@ -30,6 +33,9 @@ else
     sed -i "s/Catppuccin-latte/Catppuccin-mocha/" "$BATCONF"
     sed -i "s/Catppuccin-latte/Catppuccin-mocha/" "$GITCONF"
     sed -i 's/catppuccin-latte/catppuccin-mocha/' "$VIMCONF"
+    sed -i 's/latte.yml/mocha.yml/' "$ZSHRC"
+    fast-theme XDG:catppuccin-mocha
 fi
 
 tmux source-file "$TMUXCONF"
+restartzsh

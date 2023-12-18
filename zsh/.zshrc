@@ -83,6 +83,9 @@ export PATH="$PNPM_HOME:$PATH"
 
 export PATH="$PATH:/usr/bin/Postman"
 
+# lazygit
+export LG_CONFIG_FILE="$HOME/.config/lazygit/config.yml,$HOME/.config/lazygit/mocha.yml"
+
 # pnpm
 export PNPM_HOME="/home/max/.local/share/pnpm"
 case ":$PATH:" in
