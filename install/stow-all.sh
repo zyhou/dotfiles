@@ -16,7 +16,3 @@ fc-cache -f -v
 # To add catppuccin theme to the bat theme list `bat --list-themes`
 # https://github.com/sharkdp/bat
 bat cache --build
-
-# To add catppuccin theme in fast-syntax-highlighting
-# https://github.com/zdharma-continuum/fast-syntax-highlighting
-fast-theme XDG:catppuccin-mocha

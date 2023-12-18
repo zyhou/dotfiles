@@ -86,6 +86,9 @@ export PATH="$PATH:/usr/bin/Postman"
 # lazygit
 export LG_CONFIG_FILE="$HOME/.config/lazygit/config.yml,$HOME/.config/lazygit/mocha.yml"
 
+# https://github.com/zdharma-continuum/fast-syntax-highlighting
+fast-theme XDG:catppuccin-mocha
+
 # pnpm
 export PNPM_HOME="/home/max/.local/share/pnpm"
 case ":$PATH:" in

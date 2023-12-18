@@ -6,4 +6,4 @@ echo '[*] Starting ...'
 ./install-rust.sh
 ./stow-all.sh
 
-source ~/.zshrc
+exec zsh
