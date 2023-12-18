@@ -7,7 +7,7 @@ rm -rf ~/.config/alacritty ~/.config/bat ~/.config/Code/User/settings.json ~/.gi
 rm -rf ~/.config/nvim ~/.config/starship.toml ~/.config/fsh ~/.tmux.conf ~/.config/lazygit/config.yml
 
 echo '[*] Stowing/Creating simlinks'
-cd .. && stow -vSt ~ .fonts .icons .themes alacritty bat code git neofetch nvim starship tmux zsh fsh lazygit
+cd .. && stow -vSt ~ .fonts alacritty bat code git neofetch nvim starship tmux zsh fsh lazygit
 
 # refresh cache font
 # https://linux.die.net/man/1/fc-cache

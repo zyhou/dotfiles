@@ -34,6 +34,11 @@ As a theme, I love [Catppuccin](https://catppuccin.com/) :heart:, the Latte and 
 - [zoxide > z > cd](https://github.com/ajeetdsouza/zoxide)
 - [bottom > htop](https://github.com/ClementTsang/bottom)
 
+## GTK Theme
+
+- [GTK Theme](https://github.com/catppuccin/gtk)
+- [Tela Circle Icon Theme](https://github.com/vinceliuice/Tela-circle-icon-theme)
+
 ## Oh My Zsh Performance
 
 In `oh-my-zsh.sh` file, inside the plugin loop, add a logger
