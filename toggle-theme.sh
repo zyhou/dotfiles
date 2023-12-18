@@ -2,6 +2,8 @@
 # Toggle dark and light themes for Linux Mint Mate App, tmux, alacritty,
 # nvim and bat
 
+# Thanks to https://shapeshed.com/vim-tmux-alacritty-theme-switcher/
+
 CURRENT_MODE=$(gsettings get org.gnome.desktop.interface color-scheme)
 ALACRITTYCONF="./alacritty/.config/alacritty/alacritty.yml"
 TMUXCONF="./tmux/.tmux.conf"
