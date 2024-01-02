@@ -31,10 +31,13 @@ require("lazy").setup({
     version = false, -- always use the latest git commit
     -- version = "*", -- try installing the latest stable version for plugins that support semver
   },
-  install = { colorscheme = {  "catppuccin" } },
+  install = { colorscheme = { "catppuccin" } },
   checker = {
     enabled = false, -- automatically check for plugin updates
     notify = false, -- don't notify
+  },
+  change_detection = {
+    notify = false,
   },
   performance = {
     rtp = {

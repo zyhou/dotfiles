@@ -10,6 +10,9 @@ return {
           silent = true,
         },
       },
+      cmdline = {
+        view = "cmdline",
+      },
     },
   },
 }
