@@ -11,6 +11,7 @@
   "workbench.editor.enablePreview": false,
   "workbench.layoutControl.enabled": false,
   "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top",
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "git.confirmSync": false,
