@@ -1,5 +1,4 @@
 local icons = require("lazyvim.config").icons
-local C = require("catppuccin.palettes").get_palette()
 
 return {
   -- https://github.com/nvim-lualine/lualine.nvim
@@ -8,6 +7,7 @@ return {
     "nvim-lualine/lualine.nvim",
     event = "VeryLazy",
     opts = function(_, opts)
+      local C = require("catppuccin.palettes").get_palette()
       opts.options.component_separators = ""
       opts.options.section_separators = ""
 
