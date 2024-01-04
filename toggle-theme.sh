@@ -5,7 +5,7 @@
 # Thanks to https://shapeshed.com/vim-tmux-alacritty-theme-switcher/
 
 CURRENT_MODE=$(gsettings get org.gnome.desktop.interface color-scheme)
-ALACRITTYCONF="./alacritty/.config/alacritty/alacritty.yml"
+ALACRITTYCONF="./alacritty/.config/alacritty/alacritty.toml"
 TMUXCONF="./tmux/.tmux.conf"
 BATCONF="./bat/.config/bat/config"
 GITCONF="./git/.gitconfig"

@@ -1,0 +1,40 @@
+# https://github.com/alacritty/alacritty
+
+import = ["~/.config/alacritty/themes/catppuccin/catppuccin-mocha.toml"]
+
+[cursor.style]
+shape = "Beam"
+
+[env]
+COLORTERM = "truecolor"  # many lib use that env
+
+[font]
+size = 15
+
+[font.bold]
+family = "JetBrainsMonoNL NFM"
+style = "Extra Bold"
+
+[font.bold_italic]
+family = "JetBrainsMonoNL NFM"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrainsMonoNL NFM"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMonoNL NFM"
+style = "Medium"
+
+[shell]
+args = ["--login"]
+program = "/bin/zsh"
+
+[window.dimensions]
+columns = 120
+lines = 40
+
+[window.padding]
+x = 10
+y = 2
