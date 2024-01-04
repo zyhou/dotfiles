@@ -33,8 +33,8 @@
 [interactive]
 	diffFilter = delta --color-only --features=interactive
 [delta]
-	syntax-theme = Catppuccin-mocha # Use bat theme
-	; features = mellow-barbet
+	; syntax-theme = Catppuccin-mocha # Use bat theme
+	features = mellow-barbet
 	navigate = true # use n and N to move between diff sections
 	side-by-side = true
 [delta "interactive"]
