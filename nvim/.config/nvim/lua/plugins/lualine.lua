@@ -23,8 +23,15 @@ return {
       }
 
       opts.sections.lualine_b = {
-        ---@diagnostic disable-next-line: need-check-nil
-        { "branch", icon = "", color = { bg = C.mantle, fg = C.mauve } },
+        {
+          "branch",
+          icon = "",
+          ---@diagnostic disable-next-line: need-check-nil
+          color = { bg = C.mantle, fg = C.mauve },
+          fmt = function(str)
+            return str:sub(1, 15)
+          end,
+        },
         {
           "diff",
           symbols = {

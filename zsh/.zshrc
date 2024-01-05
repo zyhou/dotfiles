@@ -88,6 +88,8 @@ export LG_CONFIG_FILE="$HOME/.config/lazygit/config.yml,$HOME/.config/lazygit/mo
 # https://github.com/zdharma-continuum/fast-syntax-highlighting
 fast-theme --quiet XDG:catppuccin-mocha
 
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#444444"
+
 # pnpm
 export PNPM_HOME="/home/max/.local/share/pnpm"
 case ":$PATH:" in
