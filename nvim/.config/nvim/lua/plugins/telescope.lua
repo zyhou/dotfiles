@@ -3,12 +3,9 @@ return {
   {
     "nvim-telescope/telescope.nvim",
     dependencies = {
-      "nvim-telescope/telescope-fzf-native.nvim",
-      "nvim-lua/plenary.nvim",
       "debugloop/telescope-undo.nvim",
       "nvim-telescope/telescope-live-grep-args.nvim",
     },
-    build = "make",
     keys = {
       {
         "<leader>uu",
@@ -30,10 +27,22 @@ return {
         desc = "Live Grep (Args)",
       },
     },
-    config = function()
-      require("telescope").load_extension("fzf")
+    config = function(_, opts)
+      require("telescope").setup(opts)
       require("telescope").load_extension("undo")
       require("telescope").load_extension("live_grep_args")
     end,
+    opts = {
+      defaults = {
+        mappings = {
+          i = {
+            ["<c-p>"] = require("telescope.actions.layout").toggle_preview,
+          },
+        },
+        preview = {
+          hide_on_startup = true,
+        },
+      },
+    },
   },
 }
