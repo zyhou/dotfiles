@@ -33,46 +33,61 @@
 [interactive]
 	diffFilter = delta --color-only --features=interactive
 [delta]
-	; syntax-theme = Catppuccin-mocha # Use bat theme
-	features = mellow-barbet
+	features = catppuccin-mocha
 	navigate = true # use n and N to move between diff sections
 	side-by-side = true
 [delta "interactive"]
-	keep-plus-minus-markers = false
-[delta "mellow-barbet"]
-	# author: https://github.com/kvrohit
-	# To configure terminal colors see https://github.com/kvrohit/mellow.nvim#terminals
+  keep-plus-minus-markers = false
+[delta "catppuccin-frappe"]
+	commit-decoration-style = "box ul"
 	dark = true
-	syntax-theme = base16
-	line-numbers = true
-	side-by-side = true
-	file-style = brightwhite
-	file-decoration-style = none
-	file-added-label = [+]
-	file-copied-label = [==]
-	file-modified-label = [*]
-	file-removed-label = [-]
-	file-renamed-label = [->]
-	hunk-header-decoration-style = "#3e3e43" box ul
-	plus-style = brightgreen black
-	plus-emph-style = black green
-	minus-style = brightred black
-	minus-emph-style = black red
-	line-numbers-minus-style = brightred
-	line-numbers-plus-style = brightgreen
-	line-numbers-left-style = "#3e3e43"
-	line-numbers-right-style = "#3e3e43"
-	line-numbers-zero-style = "#57575f"
-	zero-style = syntax
-	whitespace-error-style = black bold
-	blame-code-style = syntax
-	blame-palette = "#161617" "#1b1b1d" "#2a2a2d" "#3e3e43"
-	merge-conflict-begin-symbol = ~
-	merge-conflict-end-symbol = ~
-	merge-conflict-ours-diff-header-style = yellow bold
-	merge-conflict-ours-diff-header-decoration-style = "#3e3e43" box
-	merge-conflict-theirs-diff-header-style = yellow bold
-	merge-conflict-theirs-diff-header-decoration-style = "#3e3e43" box
+	file-decoration-style = "#c6d0f5"
+	file-style = "#c6d0f5"
+	hunk-header-decoration-style = "box ul"
+	hunk-header-file-style = "bold"
+	hunk-header-line-number-style = "bold #a5adce"
+	hunk-header-style = "file line-number syntax"
+	line-numbers = true;
+	line-numbers-left-style = "#737994"
+	line-numbers-minus-style = "bold #e78284"
+	line-numbers-plus-style = "bold #a6d189"
+	line-numbers-right-style = "#737994"
+	line-numbers-zero-style = "#737994"
+	# 40% red 60% base
+	minus-emph-style = "bold syntax #79535f"
+	# 20% red 80% base
+	minus-style = "syntax #544452"
+	# 40% green 60% base
+	plus-emph-style = "bold syntax #5f7361"
+	# 20% green 80% base
+	plus-style = "syntax #485453"
+	# Should match the name of the bat theme
+  syntax-theme = "Catppuccin-frappe"
+[delta "catppuccin-mocha"]
+	commit-decoration-style = "box ul"
+	dark = true
+	file-decoration-style = "#cdd6f4"
+	file-style = "#cdd6f4"
+	hunk-header-decoration-style = "box ul"
+	hunk-header-file-style = "bold"
+	hunk-header-line-number-style = "bold #a6adc8"
+	hunk-header-style = "file line-number syntax"
+	line-numbers = true;
+	line-numbers-left-style = "#6c7086"
+	line-numbers-minus-style = "bold #f38ba8"
+	line-numbers-plus-style = "bold #a6e3a1"
+	line-numbers-right-style = "#6c7086"
+	line-numbers-zero-style = "#6c7086"
+	# 40% red 60% base
+	minus-emph-style = "bold syntax #734b60"
+	# 20% red 80% base
+	minus-style = "syntax #4a3447"
+	# 40% green 60% base
+	plus-emph-style = "bold syntax #546e5c"
+	# 20% green 80% base
+	plus-style = "syntax #394545"
+	# Should match the name of the bat theme
+	syntax-theme = "Catppuccin-mocha"
 [merge]
 	conflictstyle = diff3
 [diff]
