@@ -65,6 +65,7 @@ alias ll="l --long --group"
 alias tree="ll --tree --level=4 -I=.git --git-ignore"
 alias c="code ."
 alias n="nvim ."
+alias pn="pnpm"
 alias zshrc="nvim ~/.zshrc"
 alias sshconfig='nvim ~/.ssh/conf.d'
 alias myip='curl -4 ifconfig.co && curl -6 ifconfig.co'

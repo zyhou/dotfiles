@@ -61,8 +61,8 @@
   "security.workspace.trust.untrustedFiles": "open",
   "merge-conflict.diffViewPosition": "Below",
   "debug.javascript.codelens.npmScripts": "never",
-  "diffEditor.ignoreTrimWhitespace": false,
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "diffEditor.ignoreTrimWhitespace": false
   //   Talk
   //   "editor.fontSize": 15,
   //   "terminal.integrated.fontSize": 20,
