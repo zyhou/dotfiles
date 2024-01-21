@@ -39,6 +39,7 @@
 [delta "interactive"]
   keep-plus-minus-markers = false
 [delta "catppuccin-frappe"]
+	blame-palette = "#303446 #292c3c #232634 #414559 #51576d"
 	commit-decoration-style = "box ul"
 	dark = true
 	file-decoration-style = "#c6d0f5"
@@ -47,7 +48,7 @@
 	hunk-header-file-style = "bold"
 	hunk-header-line-number-style = "bold #a5adce"
 	hunk-header-style = "file line-number syntax"
-	line-numbers = true;
+	line-numbers = true
 	line-numbers-left-style = "#737994"
 	line-numbers-minus-style = "bold #e78284"
 	line-numbers-plus-style = "bold #a6d189"
@@ -62,8 +63,9 @@
 	# 20% green 80% base
 	plus-style = "syntax #485453"
 	# Should match the name of the bat theme
-  syntax-theme = "Catppuccin-frappe"
+	syntax-theme = "Catppuccin-frappe"
 [delta "catppuccin-mocha"]
+	blame-palette = "#1e1e2e #181825 #11111b #313244 #45475a"
 	commit-decoration-style = "box ul"
 	dark = true
 	file-decoration-style = "#cdd6f4"
@@ -72,7 +74,7 @@
 	hunk-header-file-style = "bold"
 	hunk-header-line-number-style = "bold #a6adc8"
 	hunk-header-style = "file line-number syntax"
-	line-numbers = true;
+	line-numbers = true
 	line-numbers-left-style = "#6c7086"
 	line-numbers-minus-style = "bold #f38ba8"
 	line-numbers-plus-style = "bold #a6e3a1"
