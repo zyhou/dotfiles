@@ -54,14 +54,14 @@
 	line-numbers-plus-style = "bold #a6d189"
 	line-numbers-right-style = "#737994"
 	line-numbers-zero-style = "#737994"
-	# 40% red 60% base
-	minus-emph-style = "bold syntax #79535f"
-	# 20% red 80% base
-	minus-style = "syntax #544452"
-	# 40% green 60% base
-	plus-emph-style = "bold syntax #5f7361"
-	# 20% green 80% base
-	plus-style = "syntax #485453"
+	# 25% red 75% base
+	minus-emph-style = "bold syntax #5e4855"
+	# 10% red 90% base
+	minus-style = "syntax #433c4c"
+	# 25% green 75% base
+	plus-emph-style = "bold syntax #4e5c57"
+	# 10% green 90% base
+	plus-style = "syntax #3c444e"
 	# Should match the name of the bat theme
 	syntax-theme = "Catppuccin-frappe"
 [delta "catppuccin-mocha"]
@@ -80,14 +80,14 @@
 	line-numbers-plus-style = "bold #a6e3a1"
 	line-numbers-right-style = "#6c7086"
 	line-numbers-zero-style = "#6c7086"
-	# 40% red 60% base
-	minus-emph-style = "bold syntax #734b60"
-	# 20% red 80% base
-	minus-style = "syntax #4a3447"
-	# 40% green 60% base
-	plus-emph-style = "bold syntax #546e5c"
-	# 20% green 80% base
-	plus-style = "syntax #394545"
+	# 25% red 75% base
+	minus-emph-style = "bold syntax #53394c"
+	# 10% red 90% base
+	minus-style = "syntax #35293b"
+	# 25% green 75% base
+	plus-emph-style = "bold syntax #40504b"
+	# 10% green 90% base
+	plus-style = "syntax #2c333a"
 	# Should match the name of the bat theme
 	syntax-theme = "Catppuccin-mocha"
 [merge]
