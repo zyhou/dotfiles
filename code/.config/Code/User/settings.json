@@ -29,7 +29,6 @@
   "editor.fontFamily": "JetBrainsMonoNL NFM",
   "editor.fontSize": 13,
   "editor.minimap.enabled": false,
-  "editor.stickyScroll.enabled": true,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.renderWhitespace": "none",
   "editor.bracketPairColorization.enabled": false,
