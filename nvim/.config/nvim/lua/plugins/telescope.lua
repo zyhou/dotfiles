@@ -39,24 +39,15 @@ return {
             ["<c-p>"] = require("telescope.actions.layout").toggle_preview,
           },
         },
+        path_display = {
+          "filename_first",
+        },
         preview = {
           hide_on_startup = true,
         },
         layout_config = {
           horizontal = {
             preview_width = 0.6,
-          },
-        },
-      },
-      pickers = {
-        find_files = {
-          path_display = {
-            "filename_first",
-          },
-        },
-        git_files = {
-          path_display = {
-            "filename_first",
           },
         },
       },
