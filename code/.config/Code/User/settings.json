@@ -42,9 +42,6 @@
     "source.fixAll.eslint": "explicit"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
-  },
   "editor.inlayHints.enabled": "on",
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
