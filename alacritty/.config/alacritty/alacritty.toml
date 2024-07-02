@@ -1,6 +1,6 @@
 # https://github.com/alacritty/alacritty
 
-import = ["~/.config/alacritty/themes/catppuccin/catppuccin-latte.toml"]
+import = ["~/.config/alacritty/themes/catppuccin/catppuccin-mocha.toml"]
 
 [cursor.style]
 shape = "Beam"
