@@ -4,6 +4,13 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 add_newline = true
+command_timeout = 1000
+
+[package]
+disabled = true
+
+[docker_context]
+disabled = true
 
 [character]
 success_symbol = "[➜](bold green)"
