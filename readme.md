@@ -19,7 +19,7 @@ As a theme, I love [Catppuccin](https://catppuccin.com/) :heart:, the Latte and 
 - [Alacritty](https://alacritty.org/), terminal
 - [tmux](https://github.com/tmux/tmux), terminal multiplexer
 - [Oh My Zsh](https://ohmyz.sh/), zsh plugin manager
-- [Spaceship](https://spaceship-prompt.sh/), prompt
+- [starship](https://starship.rs/), prompt
 - [Neovim](https://neovim.io/) with [LazyVim](https://www.lazyvim.org/), Vim-based text editor
 - [fnm](https://fnm.vercel.app), Node.js version manager
 - [direnv](https://direnv.net/), environment variables management
